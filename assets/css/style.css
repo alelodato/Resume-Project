@@ -114,3 +114,7 @@ header {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
+
+div#map {
+    min-height: 360px;
+}
