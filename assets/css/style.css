@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
 
 body {
   background-color: #383d41;
@@ -101,6 +102,25 @@ header {
   margin-top: 20px;
   margin-bottom: 90px;
   color: #ffffff;
+}
+
+#intro {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.quote {
+  color: #fff;
+  padding: 50px;
+  font-family: "Fira Code", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.quote h2 {
+  font-size: 2rem;
 }
 
 .list-inline-item:not(:last-child) {
@@ -213,3 +233,4 @@ div#map {
     color: #000000;
     padding-left: 10px;
 }
+
