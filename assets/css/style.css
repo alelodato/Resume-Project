@@ -208,3 +208,8 @@ div#map {
 #about h4 {
     font-size: 1.2rem;
 }
+
+.progress-type {
+    color: #000000;
+    padding-left: 10px;
+}
