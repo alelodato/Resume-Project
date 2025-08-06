@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
 body {
   background-color: #383d41;
@@ -110,9 +110,40 @@ header {
   justify-content: space-between;
 }
 
+.language-btn {
+  text-align: right;
+  padding: 20px;
+}
+
+.language-btn button.active {
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.6);
+  transform: scale(1.05);
+}
+
+.eng {
+  background: url(../images/gb-icon.png) no-repeat center center/cover;
+  width: 50px;
+  height: 30px;
+  border: none;
+}
+
+.ita {
+  background: url(../images/it-icon.png) no-repeat center center/cover;
+  width: 50px;
+  height: 30px;
+  border: none;
+}
+
+.eng:hover, .ita:hover {
+  cursor: pointer;
+  border: none;
+}
+
 .quote {
   color: #fff;
   padding: 50px;
+  margin-bottom: 30px;
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -172,6 +203,47 @@ header {
   letter-spacing: 2px;
 }
 
+.homepage {
+  color: #fff;
+}
+
+.homepage h3 {
+  font-size: 2rem;
+  padding: 50px 10px 10px;
+}
+
+.homepage p {
+  font-size: 1.5rem;
+}
+
+.home-intro, .home-intro2 {
+  padding: 10px 50px 10px 50px;
+}
+
+.home-intro h2 {
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  padding-top: 50px;
+}
+
+.home-intro p {
+  padding-top: 10px;
+}
+
+.home-intro2 h2 {
+  font-size: 4rem;
+  padding-top: 30px;
+}
+
+.home-intro2 p {
+  padding-left: 60px;
+}
+
+.home-intro a {
+  color: #fff;
+}
+
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
@@ -199,38 +271,37 @@ div#map {
 }
 
 .project-title {
-    color: #fff;
-    padding: 10px;
+  color: #fff;
+  padding: 10px;
 }
 
 .contacts {
-    color: #fafafa;
-    font-size: 1.5rem;
-    text-align: left;
-    padding-left: 20px;
+  color: #fafafa;
+  font-size: 1.5rem;
+  text-align: left;
+  padding-left: 20px;
 }
 
 .contacts h5 {
-    font-size: 2rem;
+  font-size: 2rem;
 }
 
 /*About Me Page */
 
 #about {
-    padding: 30px;
-    color: #fff;
+  padding: 30px;
+  color: #fff;
 }
 
 #about h3 {
-    font-size: 1.5 rem;
+  font-size: 1.5 rem;
 }
 
 #about h4 {
-    font-size: 1.2rem;
+  font-size: 1.2rem;
 }
 
 .progress-type {
-    color: #000000;
-    padding-left: 10px;
+  color: #000000;
+  padding-left: 10px;
 }
-
