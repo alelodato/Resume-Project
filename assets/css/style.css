@@ -233,11 +233,11 @@ header {
 .home-intro {
   font-family: "Exo", sans-serif;
   font-weight: 400;
+  text-align: center;
 }
 
 .home-intro h2 {
   letter-spacing: 5px;
-  text-align: center;
   font-size: 1.2rem;
   padding-top: 30px;
 }
@@ -324,9 +324,6 @@ div#map {
 
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width: 992px) {
-  .home-intro p {
-    text-align: center;
-  }
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
