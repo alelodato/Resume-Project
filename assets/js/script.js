@@ -46,3 +46,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+//Script per ricevere messaggi in "Contact Me" sul mio indirizzo email
+(function () {
+  emailjs.init('3l6LyOK5VohojizXo');
+})();
+
+document.getElementById('contact-form').addEventListener('submit', function (e) {
+  e.preventDefault();
+
+  emailjs.sendForm('service_sv9m58a', 'template_33hwqck', '#contact-form')
+    .then(() => {
+      alert('Message sent successfully!');
+      this.reset();
+    }, (error) => {
+      alert('Failed to send message. Please try again.');
+      console.error(error);
+    });
+});
+

@@ -265,8 +265,8 @@ div#map {
 
 /*Contact Page*/
 
-#contact-form {
-  padding: 30px 300px;
+#form-section {
+  padding: 30px;
 }
 
 #contact-form-button {
@@ -274,8 +274,12 @@ div#map {
 }
 
 #contact-form-button button {
-  background-color: #495057;
+  background-color: #212529b3;
   border-color: #161414;
+}
+
+#contact-form-button button:hover {
+  background-color: #000000;
 }
 
 .project-title {
@@ -413,4 +417,11 @@ div#map {
   .menuitem span {
     font-size: 1rem;
   }
+
+  /*Contact Page*/
+
+  #form-section {
+  padding-left:300px;
+  padding-right:300px;
+}
 }
