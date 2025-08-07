@@ -5,7 +5,8 @@
   box-sizing: border-box;
 }
 
-body, html {
+body,
+html {
   margin: 0;
   padding: 0;
   overflow-x: hidden;
@@ -66,28 +67,6 @@ body {
   background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
 }
 
-/*--------------------------------------------Colors*/
-
-.ui-menu-color-home {
-  background-color: rgb(9 7 58);
-}
-
-.ui-menu-color-resume {
-  background-color: #720909;
-}
-
-.ui-menu-color-contact {
-  background-color: #084f19;
-}
-
-.ui-menu-color-github {
-  background-color: #000000;
-}
-
-.ui-menu-color-download {
-  background-color: #362449;
-}
-
 /*--------------------------------------------Heading*/
 
 header {
@@ -101,7 +80,7 @@ header {
 .name {
   font-family: "Exo", sans-serif;
   font-weight: 600;
-  font-size: 2.5rem;
+  font-size: 3rem;
   margin-top: 20px;
   color: #ffffff;
 }
@@ -110,7 +89,7 @@ header {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   color: #ffffff;
 }
 
@@ -125,6 +104,7 @@ header {
   padding: 20px;
   display: flex;
   flex-direction: row;
+  justify-content: flex-end;
 }
 
 .language-btn button.active {
@@ -160,7 +140,7 @@ header {
 
 .quote {
   color: #fff;
-  padding: 0 50px 50px;
+  padding: 0 30px 30px;
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -180,9 +160,20 @@ header {
 }
 
 #nav li {
+  background-color: #212529b3;
   width: 20%;
   font-size: 14px;
   padding: 0;
+  height: 80px;
+}
+
+#nav li:hover {
+  background-color: #000000;
+}
+
+.hvr-sweep-to-bottom::before {
+  background: #000000;
+  height: 80px;
 }
 
 #nav {
@@ -199,7 +190,7 @@ header {
   width: 100%;
   text-decoration: none;
   color: #fff;
-  height: 0px;
+  height: 30px;
 }
 
 .menuitem a i {
@@ -210,6 +201,7 @@ header {
 }
 
 .menuitem span {
+  font-family: "Exo", sans-serif;
   display: block;
   width: 100%;
   padding-top: 5px;
@@ -235,25 +227,28 @@ header {
 
 .home-intro,
 .home-intro2 {
-  padding: 20px;
+  padding: 10px;
+}
+
+.home-intro {
+  font-family: "Exo", sans-serif;
+  font-weight: 400;
 }
 
 .home-intro h2 {
-  font-family: "Exo", sans-serif;
-  font-weight: 400;
   letter-spacing: 5px;
   text-align: center;
-  font-size: 1.5rem;
-  padding-top: 50px;
+  font-size: 1.2rem;
+  padding-top: 30px;
 }
 
 .home-intro p {
-  padding-top: 10px;
+  letter-spacing: 2px;
 }
 
 .home-intro2 h2 {
   font-size: 2.5rem;
-  padding-top: 30px;
+  padding-top: 20px;
 }
 
 .home-intro2 p {
@@ -262,13 +257,6 @@ header {
 
 .home-intro a {
   color: #fff;
-}
-
-/*--------------------------------------------Hover.css*/
-
-.hvr-sweep-to-bottom:before {
-  background: rgba(0, 0, 0, 0.2);
-  height: 120px;
 }
 
 div#map {
@@ -336,6 +324,9 @@ div#map {
 
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width: 992px) {
+  .home-intro p {
+    text-align: center;
+  }
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
@@ -379,6 +370,19 @@ div#map {
     height: 30px;
   }
 
+  #nav li {
+    height: 100px;
+  }
+
+  .hvr-sweep-to-bottom::before {
+    background: #000000;
+    height: 100px;
+  }
+
+  .menuitem a {
+    height: 30px;
+  }
+
   .home-intro,
   .home-intro2 {
     padding: 10px 50px 10px 50px;
@@ -406,10 +410,10 @@ div#map {
   }
 
   .menuitem a i {
-  font-size: 1.5rem;
-}
+    font-size: 1.5rem;
+  }
 
-.menuitem span {
-  font-size: 1rem;
-}
+  .menuitem span {
+    font-size: 1rem;
+  }
 }

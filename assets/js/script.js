@@ -14,7 +14,15 @@ function loadLanguage(lang) {
         }
 
         if (text) {
-          element.textContent = text;
+          if (element.dataset.i18n) {
+            const keys = element.dataset.i18n.split(".");
+            let translation = translations;
+
+            for (const key of keys) {
+              translation = translation[key];
+            }
+            element.innerHTML = translation;
+          }
         }
       });
     });

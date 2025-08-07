@@ -6,7 +6,7 @@
 
     "body": {
         "home":"Hi! I'm a full stack developer specialised on the front-end, with a background in hospitality, retail and logistics, now focused on building digital experiences that matter.",
-        "home-p": "Read More",
+        "homep": "Read More <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
         "home2-title":"What I Do",
         "home2-subtitle":"🌐 Frontend development (React, JavaScript, responsive design):",
         "home2-paragraph":"I build fast, responsive, and accessible websites using HTML, CSS, and modern JavaScript - with a strong focus on React and clean UI/UX",

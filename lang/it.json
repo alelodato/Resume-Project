@@ -6,7 +6,7 @@
 
     "body": {
     "home": "Ciao! Sono uno sviluppatore full stack, specializzato nel front-end, con un background nella ristorazione, retail e logistica, ora focalizzato sulla creazione di esperienze digitali che contano.",
-    "home-p": "Scopri di più",
+    "homep": "Scopri di più <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
     "home2-title": "Cosa Faccio",
     "home2-subtitle": "🌐Sviluppo frontend (React, JavaScript, design responsive):",
     "home2-paragraph": "Creo siti web veloci, responsive e accessibili utilizzando HTML, CSS e JavaScript moderno, con un forte focus su React e UI/UX pulite.",
