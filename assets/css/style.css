@@ -1,6 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700");
 @import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  width: 100%;
+}
+
 body {
   background-color: #383d41;
   background-image: linear-gradient(
@@ -84,23 +95,22 @@ header {
 }
 
 .heading {
-  margin-left: 50px;
+  margin-left: 30px;
 }
 
 .name {
   font-family: "Exo", sans-serif;
   font-weight: 600;
-  font-size: 5rem;
-  margin-top: 50px;
+  font-size: 2.5rem;
+  margin-top: 20px;
   color: #ffffff;
 }
 
 .title {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
-  font-size: 3rem;
-  margin-top: 20px;
-  margin-bottom: 90px;
+  font-size: 1.5rem;
+  margin-bottom: 50px;
   color: #ffffff;
 }
 
@@ -113,6 +123,8 @@ header {
 .language-btn {
   text-align: right;
   padding: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
 .language-btn button.active {
@@ -121,29 +133,34 @@ header {
   transform: scale(1.05);
 }
 
+.eng,
+.ita {
+  margin: 5px;
+}
+
 .eng {
   background: url(../images/gb-icon.png) no-repeat center center/cover;
-  width: 50px;
-  height: 30px;
+  width: 35px;
+  height: 20px;
   border: none;
 }
 
 .ita {
   background: url(../images/it-icon.png) no-repeat center center/cover;
-  width: 50px;
-  height: 30px;
+  width: 35px;
+  height: 20px;
   border: none;
 }
 
-.eng:hover, .ita:hover {
+.eng:hover,
+.ita:hover {
   cursor: pointer;
   border: none;
 }
 
 .quote {
   color: #fff;
-  padding: 50px;
-  margin-bottom: 30px;
+  padding: 0 50px 50px;
   font-family: "Fira Code", monospace;
   font-optical-sizing: auto;
   font-weight: 200;
@@ -151,7 +168,7 @@ header {
 }
 
 .quote h2 {
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .list-inline-item:not(:last-child) {
@@ -182,14 +199,14 @@ header {
   width: 100%;
   text-decoration: none;
   color: #fff;
-  height: 120px;
+  height: 0px;
 }
 
 .menuitem a i {
   padding-top: 22px;
   display: block;
   color: #fafafa;
-  font-size: 26px;
+  font-size: 1rem;
 }
 
 .menuitem span {
@@ -198,7 +215,7 @@ header {
   padding-top: 5px;
   text-align: center;
   text-transform: uppercase;
-  font-size: 14px;
+  font-size: 0.5rem;
   font-weight: 300;
   letter-spacing: 2px;
 }
@@ -208,16 +225,17 @@ header {
 }
 
 .homepage h3 {
-  font-size: 2rem;
-  padding: 50px 10px 10px;
+  font-size: 1rem;
+  padding: 30px 10px 10px;
 }
 
 .homepage p {
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 
-.home-intro, .home-intro2 {
-  padding: 10px 50px 10px 50px;
+.home-intro,
+.home-intro2 {
+  padding: 20px;
 }
 
 .home-intro h2 {
@@ -225,7 +243,7 @@ header {
   font-weight: 400;
   letter-spacing: 5px;
   text-align: center;
-  font-size: 3rem;
+  font-size: 1.5rem;
   padding-top: 50px;
 }
 
@@ -234,12 +252,12 @@ header {
 }
 
 .home-intro2 h2 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   padding-top: 30px;
 }
 
 .home-intro2 p {
-  padding-left: 60px;
+  padding-left: 10px;
 }
 
 .home-intro a {
@@ -306,4 +324,92 @@ div#map {
 .progress-type {
   color: #000000;
   padding-left: 10px;
+}
+
+/*Media query for large or landscape phones (570px and up)*/
+@media screen and (min-width: 570px) {
+}
+
+/*Media query for tablets and larger (768px and up)*/
+@media screen and (min-width: 768px) {
+}
+
+/*Media query for laptops and larger screens (992 and up)*/
+@media screen and (min-width: 992px) {
+}
+
+/*Media query for computers,large laptops and upwards (1200px and higher)*/
+@media screen and (min-width: 1200px) {
+  .heading {
+    margin-left: 50px;
+  }
+
+  .name {
+    font-size: 5rem;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 3.5rem;
+    margin-bottom: 90px;
+    margin-top: 20px;
+  }
+
+  .quote {
+    padding: 50px;
+    margin-bottom: 30px;
+  }
+
+  .quote h2 {
+    font-size: 2rem;
+  }
+
+  .language-btn {
+    text-align: right;
+    padding: 20px;
+  }
+
+  .eng {
+    width: 50px;
+    height: 30px;
+  }
+
+  .ita {
+    width: 50px;
+    height: 30px;
+  }
+
+  .home-intro,
+  .home-intro2 {
+    padding: 10px 50px 10px 50px;
+  }
+
+  .home-intro h2 {
+    font-size: 3rem;
+  }
+
+  .home-intro2 h2 {
+    font-size: 4rem;
+  }
+
+  .home-intro2 p {
+    padding-left: 60px;
+  }
+
+  .homepage h3 {
+    font-size: 2rem;
+    padding-top: 50px;
+  }
+
+  .homepage p {
+    font-size: 1.5rem;
+  }
+
+  .menuitem a i {
+  font-size: 1.5rem;
+}
+
+.menuitem span {
+  font-size: 1rem;
+}
 }
