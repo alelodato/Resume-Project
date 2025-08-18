@@ -322,6 +322,15 @@ div#map {
   padding-left: 10px;
 }
 
+.about-me a {
+  text-decoration: none;
+  color: #fafafa;
+}
+
+.about-me a:hover {
+  text-decoration: underline;
+}
+
 /*Alerts*/
 
 .swal2-popup {
