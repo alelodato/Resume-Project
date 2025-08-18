@@ -16,5 +16,11 @@
     "home2-paragraph3":"Dallo sviluppo alla pubblicazione - gestisco l'intero processo utilizzando Git, GitHub e piattaforme come Heroku o GitHub Pages.",
     "home2-subtitle4": "📈 Performance e Accessibilità",
     "home2-paragraph4": "Ottimizzo ogni progetto per velocità, reattività mobile e accessibilità, assicurando un'esperienza utente fluida su ogni dispositivo."
+  },
+
+  "contact": {
+        "title":"Hai un progetto da realizzare?",
+        "title2":"Lavoriamo insieme!",
+        "button":"Invia"
   }
 }

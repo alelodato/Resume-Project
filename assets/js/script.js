@@ -57,7 +57,10 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
 
   emailjs.sendForm('service_sv9m58a', 'template_33hwqck', '#contact-form')
     .then(() => {
-      alert('Message sent successfully!');
+      Swal.fire({
+      title: "Message sent successfully!",
+      text: "Thank you for your message, i will reply as soon as possible!",
+    });
       this.reset();
     }, (error) => {
       alert('Failed to send message. Please try again.');

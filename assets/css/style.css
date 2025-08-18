@@ -269,6 +269,10 @@ div#map {
   padding: 30px;
 }
 
+.form-control {
+  border: 1px solid #343a40;
+  border-radius: 0;
+}
 #contact-form-button {
   padding: 30px;
 }
@@ -316,6 +320,21 @@ div#map {
 .progress-type {
   color: #000000;
   padding-left: 10px;
+}
+
+/*Alerts*/
+
+.swal2-popup {
+  font-family: "Exo", sans-serif;
+  font-size: 1rem;
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.swal2-confirm {
+  font-family: "Exo", sans-serif;
+  background-color: #0000009b;
+  border: solid #161414 1px;
 }
 
 /*Media query for large or landscape phones (570px and up)*/

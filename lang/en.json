@@ -17,5 +17,11 @@
         "home2-subtitle4":"📈 Performance & Accessibility",
         "home2-paragraph4":"I optimize every project for speed, mobile responsiveness, and accessibility, ensuring a smooth user experience on any device."
 
+    },
+
+    "contact": {
+        "title":"Got a project in mind?",
+        "title2":"Let's work together!",
+        "button":"Send"
     }
 }
