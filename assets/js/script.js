@@ -69,7 +69,6 @@ document.getElementById('contact-form').addEventListener('submit', function (e) 
         text: "Grazie per il tuo messaggio, risponderó il prima possibile!",
       });
       }
-      
       this.reset();
     }, (error) => {
       alert('Failed to send message. Please try again.');
