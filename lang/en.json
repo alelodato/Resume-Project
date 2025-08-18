@@ -1,7 +1,8 @@
 {
     "header": {
         "title2": "Full Stack Developer",
-        "contact": "Contact Me"
+        "contact": "Contact Me",
+        "cv":"Download CV"
     },
 
     "body": {
@@ -17,6 +18,20 @@
         "home2-subtitle4":"📈 Performance & Accessibility",
         "home2-paragraph4":"I optimize every project for speed, mobile responsiveness, and accessibility, ensuring a smooth user experience on any device."
 
+    },
+
+    "about": {
+        "title":"About Me",
+        "about-p":"I had my first working experiences in logistics and retail, but after moving to London in 2015 I moved to the hospitality industry. I spent nearly ten years there, growing both professionaly and personally while working in high-end restaurants and private member clubs. <br> During that time I gained different skills as being able to communicate effectively with international clients and colleagues, while consistently delivering high-quality service in high-pressure environments. <br> These taught me how to stay calm, plan in advance and keep things running smoothly, even in fast-paced demanding environments. <br> Over the time though time i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, and eventually leaving my job in hospitality, moved back to Italy and achieving my diploma. <br> This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br> Now, I help individuals and businesses bring their ideas to life through intuitive, responsive, and visually engaging websites — while continuing to develop my own projects with creativity and passion.",
+        "what-i-do-title":"What I Build",
+        "what-i-do-p":"I mostly work with small businesses, professionals, and digital creatives to create:",
+        "what-i-do-li1":"Portfolio websites for individuals looking to showcase their work",
+        "what-i-do-li2":"Restaurant or hospitality websites with booking systems",
+        "what-i-do-li3":"Landing pages for new products or local businesses",
+        "what-i-do-li4":"Games and interactive experiences",
+        "what-i-do-li5":"Custom dashboards or admin panels with Django backends",
+        "collab":"If you're looking for a developer who can turn your idea into a clean, effective website — you're in the right place.",
+        "collab2":"And if you're interested in working with me or have an idea for a collaboration, feel free to <a href='contact.html'>get in touch</a> or check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
     },
 
     "contact": {
