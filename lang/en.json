@@ -7,7 +7,7 @@
     },
 
     "body": {
-        "home":"Hi! I'm a full stack developer specialised on the front-end, with a background in hospitality, retail and logistics, now focused on building digital experiences that matter.",
+        "home":"Hi! I'm a full stack developer specialised on the front-end, with a background in hospitality, retail and logistics, now focused on building modern, functional and accessible digital experiences.",
         "homep": "Read More <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
         "home2-title":"What I Do",
         "home2-subtitle":"🌐 Frontend development (React, JavaScript, responsive design):",
@@ -17,13 +17,14 @@
         "home2-subtitle3":"🛠️ Full project deployment (GitHub Pages, Heroku)",
         "home2-paragraph3":"From coding to deployment - I manage the full process using Git, GitHub, and platforms like Heroku or Github Pages.",
         "home2-subtitle4":"📈 Performance & Accessibility",
-        "home2-paragraph4":"I optimize every project for speed, mobile responsiveness, and accessibility, ensuring a smooth user experience on any device."
+        "home2-paragraph4":"I optimize every project for speed, mobile responsiveness, and accessibility, ensuring a smooth user experience on any device.",
+        "contact-me":"<a href='contact.html'>Let's work together!</a>"
 
     },
 
     "about": {
         "title":"About Me",
-        "about-p":"I had my first working experiences in logistics and retail, but after moving to London in 2015 I moved to the hospitality industry. I spent nearly ten years there, growing both professionaly and personally while working in high-end restaurants and private member clubs. <br> During that time I gained different skills as being able to communicate effectively with international clients and colleagues, while consistently delivering high-quality service in high-pressure environments. <br> These taught me how to stay calm, plan in advance and keep things running smoothly, even in fast-paced demanding environments. <br> Over the time though time i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, and eventually leaving my job in hospitality, moved back to Italy and achieving my diploma. <br> This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br> Now, I help individuals and businesses bring their ideas to life through intuitive, responsive, and visually engaging websites — while continuing to develop my own projects with creativity and passion.",
+        "about-p":"I had my first working experiences in logistics and retail, until i moved to London in 2015 and I started working in the hospitality industry. I spent nearly ten years in the UK, growing both professionaly and personally while working in high-end restaurants and private member clubs. <br> During that time I gained different skills as being able to communicate effectively with international clients and colleagues, while consistently delivering high-quality service in high-pressure environments. <br> These taught me how to stay calm, plan in advance and keep things running smoothly, even in fast-paced demanding environments. <br> Over the time though i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, and eventually leaving my job in hospitality, moved back to Italy and achieving my diploma. <br> This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br> Now, I help individuals and businesses bring their ideas to life through intuitive, responsive, and visually engaging websites — while continuing to develop my own projects with creativity and passion.",
         "what-i-do-title":"What I Build",
         "what-i-do-p":"I mostly work with small businesses, professionals, and digital creatives to create:",
         "what-i-do-li1":"Portfolio websites for individuals looking to showcase their work",
@@ -32,7 +33,7 @@
         "what-i-do-li4":"Games and interactive experiences",
         "what-i-do-li5":"Custom dashboards or admin panels with Django backends",
         "collab":"If you're looking for a developer who can turn your idea into a clean, effective website — you're in the right place.",
-        "collab2":"And if you're interested in working with me or have an idea for a collaboration, feel free to <a href='contact.html'>get in touch</a> or check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
+        "collab2":"Feel free to <a href='contact.html'>get in touch</a> or check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
     },
 
     "contact": {

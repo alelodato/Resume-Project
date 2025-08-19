@@ -7,7 +7,7 @@
     },
 
     "body": {
-    "home": "Ciao! Sono uno sviluppatore full stack, specializzato nel front-end, con un background nella ristorazione, retail e logistica, ora focalizzato sulla creazione di esperienze digitali che contano.",
+    "home": "Ciao! Sono uno sviluppatore full stack specializzato nel front-end, con un background nella ristorazione, nel retail e nella logistica, ora focalizzato sulla creazione di esperienze digitali moderne, funzionali ed accessibili.",
     "homep": "Scopri di più <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
     "home2-title": "Cosa Faccio",
     "home2-subtitle": "🌐Sviluppo frontend (React, JavaScript, design responsive):",
@@ -17,12 +17,13 @@
     "home2-subtitle3": "🛠️ Distribuzione completa del progetto (GitHub Pages, Heroku)",
     "home2-paragraph3":"Dallo sviluppo alla pubblicazione - gestisco l'intero processo utilizzando Git, GitHub e piattaforme come Heroku o GitHub Pages.",
     "home2-subtitle4": "📈 Performance e Accessibilità",
-    "home2-paragraph4": "Ottimizzo ogni progetto per velocità, reattività mobile e accessibilità, assicurando un'esperienza utente fluida su ogni dispositivo."
+    "home2-paragraph4": "Ottimizzo ogni progetto per velocità, reattività mobile e accessibilità, assicurando un'esperienza utente fluida su ogni dispositivo.",
+    "contact-me":"<a href='contact.html'>Lavoriamo insieme!</a>"
   },
 
   "about": {
         "title":"Chi Sono",
-        "about-p":"Ho iniziato le mie prime esperienze lavorative nella logistica e nel retail, ma dopo essermi trasferito a Londra nel 2015, sono passato all'industria dell hospitality. Ho trascorso lì quasi dieci anni, crescendo sia a livello professionale che personale mentre lavoravo in ristoranti di alto livello e private member club. <br> Durante quel periodo, ho sviluppato diverse competenze, come la capacità di comunicare in modo efficace con clienti e colleghi internazionali, mantenendo sempre un alto livello di servizio in contesti ad alta pressione. <br> Questo mi ha insegnato a restare calmo, pianificare in anticipo e garantire il buon funzionamento delle attività, anche in ambienti frenetici e molto esigenti. Col tempo, però, ho sentito il bisogno di un cambiamento — qualcosa che mi permettesse di creare, imparare continuamente e lavorare da remoto. <br> È così che ho deciso di reinventarmi e di iniziare il mio percorso nel mondo tech. Nel 2024 mi sono iscritto al corso Full Stack Developer del <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a> e ho iniziato a studiare sviluppo web, passando gradualmente verso una carriera più creativa e appagante, fino a lasciare il mio lavoro nell hospitality, tornare in Italia e ottenere il diploma. <br> Questo percorso mi ha insegnato resilienza, disciplina e l'importanza di costruire cose significative, con obiettivi chiari e funzionali. <br> Ora aiuto persone e aziende a portare online le loro idee con siti web intuitivi, reattivi e visivamente coinvolgenti — continuando allo stesso tempo a sviluppare i miei progetti con creatività e passione.",
+        "about-p":"Ho iniziato le mie prime esperienze lavorative nella logistica e nel retail, per poi dopo essermi trasferito a Londra nel 2015, iniziare a lavorare nella ristorazione. Ho trascorso quasi dieci anni nel Regno Unito, crescendo sia a livello professionale che personale mentre lavoravo in ristoranti di alto livello e private member club. <br> Durante quel periodo, ho sviluppato diverse competenze, come la capacità di comunicare in modo efficace con clienti e colleghi internazionali, mantenendo sempre un alto livello di servizio in contesti ad alta pressione. <br> Questo mi ha insegnato a restare calmo, pianificare in anticipo e garantire il buon funzionamento delle attività, anche in ambienti frenetici e molto esigenti. Col tempo, però, ho sentito il bisogno di un cambiamento — qualcosa che mi permettesse di creare, imparare continuamente e lavorare da remoto. <br> È così che ho deciso di reinventarmi e di iniziare il mio percorso nel mondo tech. Nel 2024 mi sono iscritto al corso Full Stack Developer del <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a> e ho iniziato a studiare sviluppo web, passando gradualmente verso una carriera più creativa e appagante, fino a lasciare il mio lavoro nell hospitality, tornare in Italia e ottenere il diploma. <br> Questo percorso mi ha insegnato resilienza, disciplina e l'importanza di costruire cose significative, con obiettivi chiari e funzionali. <br> Ora aiuto persone e aziende a portare online le loro idee con siti web intuitivi, reattivi e visivamente coinvolgenti — continuando allo stesso tempo a sviluppare i miei progetti con creatività e passione.",
         "what-i-do-title":"Cosa Realizzo",
         "what-i-do-p":"Collaboro principalmente con piccole imprese, professionisti e creativi digitali per creare:",
         "what-i-do-li1":"Siti portfolio per chi desidera mostrare il proprio lavoro",
@@ -31,7 +32,7 @@
         "what-i-do-li4":"Giochi ed esperienze interattive",
         "what-i-do-li5":"Dashboard personalizzate o pannelli admin con backend Django",
         "collab":"Se stai cercando uno sviluppatore capace di trasformare la tua idea in un sito pulito ed efficace — sei nel posto giusto.",
-        "collab2":"E se ti interessa collaborare con me o hai un’idea in mente, sentiti libero di <a href='contact.html'>contattarmi</a> o dare un’occhiata ai miei lavori su <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
+        "collab2":"Sentiti libero di <a href='contact.html'>contattarmi</a> o dare un'occhiata ai miei lavori su <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
     },
 
   "contact": {

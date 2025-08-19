@@ -263,6 +263,17 @@ div#map {
   min-height: 360px;
 }
 
+.contact-me {
+  text-align: center;
+}
+
+.contact-me a {
+  font-family: "Exo", sans-serif;
+  font-size: 1.5rem;
+  color: #fafafa;
+  text-decoration: underline;
+}
+
 /*Contact Page*/
 
 #form-section {
