@@ -1,3 +1,27 @@
+document.addEventListener("DOMContentLoaded", () => {
+    const cvButton = document.getElementById("download-cv");
+
+    // Lingua del browser
+    const userLang = navigator.language || navigator.userLanguage;
+
+    // Scegli file CV in base alla lingua
+    const cvFile = userLang.startsWith("it")
+      ? "assets/cv/CV-Alessio-Lodato-IT.pdf"
+      : "assets/cv/CV-Alessio-Lodato-EN.pdf";
+
+      cvButton.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.open(cvFile, "_blank");
+      });
+
+    // Aggiorna il link del pulsante
+    cvButton.setAttribute("href", cvFile);
+  });
+
+
+
+
+// Loads a language rendering the text in the active one
 function loadLanguage(lang) {
   fetch(`../lang/${lang}.json`)
     .then((response) => response.json())
@@ -28,17 +52,17 @@ function loadLanguage(lang) {
     });
 }
 
-// Salva lingua in localStorage
+// Saves language on localstorage
 function setLanguage(lang) {
   localStorage.setItem("lang", lang);
   loadLanguage(lang);
 }
 
-// Carica lingua salvata o default
+// Loads saved or default language
 document.addEventListener("DOMContentLoaded", () => {
   const lang = localStorage.getItem("lang") || "en";
   loadLanguage(lang);
-  // Esempio bottoni bandiera
+  // Flag buttons
   document.querySelectorAll(".language-btn button").forEach((button) => {
     button.addEventListener("click", () => {
       const lang = button.getAttribute("data-lang");
@@ -47,7 +71,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-//Script per ricevere messaggi in "Contact Me" sul mio indirizzo email
+//Script to receive form messages on my email address
 (function () {
   emailjs.init('3l6LyOK5VohojizXo');
 })();

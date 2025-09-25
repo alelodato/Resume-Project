@@ -141,21 +141,6 @@ https://yourusername.github.io/Resume-Project/
 
 ---
 
-## 📄 License
-
-This project is licensed under the MIT License.  
-You are free to use, modify, and distribute it.
-
-```
-MIT License
-
-Copyright (c) 2025 Alessio Lodato
-
-Permission is hereby granted, free of charge, to any person obtaining a copy...
-```
-
----
-
 ## 🙏 Acknowledgements
 
 - Code Institute for the original template structure
