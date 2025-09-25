@@ -216,12 +216,45 @@ header {
   color: #fff;
 }
 
+.homepage img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.p1,
+.p2,
+.p3,
+.p4 {
+  padding: 10px;
+}
+
+.fa-github {
+  width: 20%;
+}
+
+.p3  img {
+  width: 20% !important;
+  margin: 20px;
+}
+
+.p3 svg {
+  width: 20%;
+  margin: 20px;
+}
+
+.deploy-icons {
+  text-align: center;
+}
+
 .homepage h3 {
-  font-size: 1rem;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5rem;
   padding: 30px 10px 10px;
 }
 
 .homepage p {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
   font-size: 1rem;
 }
 
@@ -237,9 +270,10 @@ header {
 }
 
 .home-intro h2 {
+  font-family: "Exo", sans-serif;
   letter-spacing: 5px;
   font-size: 1.2rem;
-  padding-top: 30px;
+  padding-top: 10px;
 }
 
 .home-intro p {
@@ -247,12 +281,12 @@ header {
 }
 
 .home-intro2 h2 {
-  font-size: 2.5rem;
-  padding-top: 20px;
+  font-size: 3rem;
+  padding: 20px;
 }
 
 .home-intro2 p {
-  padding-left: 10px;
+  padding: 20px;
 }
 
 .home-intro a {
