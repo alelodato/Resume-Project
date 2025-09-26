@@ -234,8 +234,9 @@ header {
 }
 
 .deploy-icons {
-  text-align: center;
   display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .vercel {
@@ -402,10 +403,129 @@ div#map {
 
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
+  .name {
+    font-size: 4rem;
+  }
+
+  .home-intro h2 {
+    font-size: 2rem;
+  }
+
+  .home-intro p {
+    font-size: 1.5rem;
+  }
+
+  .home-intro2 h2 {
+    font-size: 4rem;
+  }
+
+  .homepage h3 {
+    font-size: 2.5rem;
+  }
+
+  .p1 img,
+  .p2 img,
+  .p4 img {
+    padding: 0 30px;
+  }
+
+  .home-intro2 p {
+    font-size: 1.5rem;
+  }
+
+  .p3 img {
+    margin: 50px;
+  }
+
+  .vercel {
+    margin: 50px;
+  }
+
+  #about h3 {
+    font-size: 4rem;
+  }
+
+  .about-me p {
+    font-size: 1.5rem;
+  }
+
+  #form-section {
+    padding: 40px 80px;
+  }
+
+  .project-title h3 {
+    font-size: 2.5rem;
+  }
+
+  .project-title h5 {
+    font-size: 1.5rem;
+  }
+
+  #contact-form-button button {
+    width: 120px;
+    height: 40px;
+    font-size: 1.2rem;
+    padding: 5px;
+  }
 }
 
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width: 992px) {
+
+  .name {
+    font-size: 4.5rem;
+  }
+
+  .quote h2 {
+    font-size: 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .home-intro {
+    padding: 40px 80px;
+  }
+
+  .home-intro h2 {
+    font-size: 2.5rem;
+  }
+
+  .p1 img,
+  .p2 img,
+  .p4 img {
+    padding: 0 50px;
+  }
+
+  .home-intro2 p {
+    font-size: 2rem;
+  }
+
+  .about-me h3 {
+    font-size: 5rem;
+  }
+
+  .about-me p {
+    font-size: 2.5rem;
+  }
+
+  .about-me img {
+    padding: 70px;
+  }
+
+  .contact-me a {
+    font-size: 3rem;
+  }
+
+  #form-section {
+    padding: 40px 120px;
+  }
+
+  .project-title h3 {
+    font-size: 3.5rem;
+  }
+
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
@@ -462,9 +582,8 @@ div#map {
     height: 30px;
   }
 
-  .home-intro,
-  .home-intro2 {
-    padding: 10px 50px 10px 50px;
+  .home-intro {
+    padding: 20px 100px;
   }
 
   .home-intro h2 {
@@ -472,7 +591,7 @@ div#map {
   }
 
   .home-intro2 h2 {
-    font-size: 4rem;
+    font-size: 5rem;
   }
 
   .home-intro2 p {
@@ -480,12 +599,22 @@ div#map {
   }
 
   .homepage h3 {
-    font-size: 2rem;
+    font-size: 3rem;
     padding-top: 50px;
   }
 
+  .p1 img,
+  .p2 img,
+  .p4 img {
+    padding: 0 100px;
+  }
+
   .homepage p {
-    font-size: 1.5rem;
+    font-size: 2rem;
+  }
+
+  .deploy-icons {
+    padding: 10px 100px;
   }
 
   .menuitem a i {
@@ -502,4 +631,27 @@ div#map {
     padding-left: 300px;
     padding-right: 300px;
   }
+
+  .img-p2 {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 50px;
+  }
+
+  .img-p2 p {
+    font-size: 1.8rem !important;
+    padding: 100px 30px 0 30px;
+  }
+
+  .about-me p {
+    font-size: 2rem;
+  }
+
+
+  .about-me img {
+    width: 30%;
+    padding: 0;
+  }
+
+
 }

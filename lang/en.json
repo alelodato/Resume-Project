@@ -7,7 +7,7 @@
     },
 
     "body": {
-        "home":"Hi! I'm a full stack developer specialised on the front-end, and i build modern, functional and accessible digital experiences.",
+        "home":"Hi! I'm a full stack developer specialised on the front-end and on build modern, functional and accessible digital experiences.",
         "homep": "Read More <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
         "home2-title":"What I Do",
         "home2-subtitle":"🌐 Frontend development (React, JavaScript, responsive design):",
@@ -25,7 +25,8 @@
     "about": {
         "title":"About Me",
         "about-p":"I had my first working experiences in logistics and retail, until i moved to London in 2015 and I started working in the hospitality industry. I spent nearly ten years in the UK, growing both professionaly and personally while working in high-end restaurants and private member clubs.",
-        "about-p2":"Over the time though i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, and eventually leaving my job in hospitality, and achieved my diploma. <br> This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br> Now, I help individuals and businesses bring their ideas to life through intuitive, responsive, and visually engaging websites — while continuing to develop my own projects with creativity and passion.",
+        "about-p2":"Over the time though i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, eventually leaving my job in hospitality, and achieved my diploma. <br> ",
+        "about-p3":"This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br> Now, I help individuals and businesses bring their ideas to life through intuitive, responsive, and visually engaging websites — while continuing to develop my own projects with creativity and passion.",
         "collab2":"Feel free to <a href='contact.html'>get in touch</a> or check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
     },
 
