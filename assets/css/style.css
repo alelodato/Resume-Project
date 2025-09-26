@@ -228,18 +228,19 @@ header {
   padding: 10px;
 }
 
-.p3  img {
+.p3 img {
   width: 20% !important;
-  margin: 20px;
-}
-
-.p3 svg {
-  width: 20%;
   margin: 20px;
 }
 
 .deploy-icons {
   text-align: center;
+  display: flex;
+}
+
+.vercel {
+  width: 20%;
+  margin: 20px;
 }
 
 .homepage h3 {
@@ -361,18 +362,23 @@ div#map {
   font-size: 1.5rem;
 }
 
+.about-me img {
+  width: 100%;
+  padding: 20px;
+}
+
 .progress-type {
   color: #000000;
   padding-left: 10px;
 }
 
 .about-me a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #fafafa;
 }
 
 .about-me a:hover {
-  text-decoration: underline;
+  cursor: pointer;
 }
 
 /*Alerts*/
@@ -493,7 +499,7 @@ div#map {
   /*Contact Page*/
 
   #form-section {
-  padding-left:300px;
-  padding-right:300px;
-}
+    padding-left: 300px;
+    padding-right: 300px;
+  }
 }
