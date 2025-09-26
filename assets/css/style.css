@@ -311,6 +311,7 @@ div#map {
 
 #form-section {
   padding: 30px;
+  font-family: "Exo", sans-serif;
 }
 
 .form-control {
@@ -603,10 +604,19 @@ div#map {
     padding-top: 50px;
   }
 
+  .desktop-layout {
+    display: flex;
+    flex-direction: row;
+  }
+
   .p1 img,
-  .p2 img,
+  .p2 img {
+    width: 30%;
+    padding: 0;
+  }
+
   .p4 img {
-    padding: 0 100px;
+    padding: 0 250px;
   }
 
   .homepage p {
