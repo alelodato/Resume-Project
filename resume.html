@@ -14,6 +14,9 @@
   <script src="https://unpkg.com/i18next-http-backend@1.3.1/i18nextHTTPBackend.min.js"></script>
   <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.2/i18nextBrowserLanguageDetector.min.js"></script>
   <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <!-- AOS CSS -->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
   <title>Alessio Lodato</title>
 </head>
 
@@ -74,65 +77,65 @@
       <h3 data-i18n="about.title"></h3>
       <p data-i18n="about.about-p"></p>
       <div class="img-p2">
-        <img src="./assets/images/aleportfolio.webp" alt="my-picture">
+        <img src="./assets/images/aleportfolio.webp" alt="my-picture" data-aos="zoom-in">
         <p data-i18n="about.about-p2"></p>
       </div>
       <section class="timeline">
         <div class="timeline-event">
           <div class="event-date">May 2024</div>
-          <div class="event-icon" id="ci-icon"><img src="./assets/images/ci-logo.png" alt="CODE INSTITUTE"></div>
-          <div class="event-content">
+          <div class="event-icon" id="ci-icon"><img src="./assets/images/ci-logo.png" alt="CODE INSTITUTE" data-aos="zoom-in"></div>
+          <div class="event-content" data-aos="fade-left">
             <h4>Started my Journey</h4>
             <p>Enrolled for the Code Institute Full stack Developer Course</p>
           </div>
         </div>
         <div class="timeline-event">
           <div class="event-date">June 2024</div>
-          <div class="event-icon"><img src="./assets/images/html-5.png" alt="HTML">
+          <div class="event-icon" data-aos="zoom-in" data-aos-delay="200"><img src="./assets/images/html-5.png" alt="HTML">
           <img src="./assets/images/css-3.png" alt="CSS"></div>
-          <div class="event-content">
+          <div class="event-content" data-aos="fade-left" data-aos-delay="200">
             <h4>HTML & CSS</h4>
             <p>Started learning html and css and built my first project.</p>
           </div>
         </div>
         <div class="timeline-event">
           <div class="event-date">August 2024</div>
-          <div class="event-icon"><img src="./assets/images/js.png" alt="JavaScript">
+          <div class="event-icon" data-aos="zoom-in" data-aos-delay="400"><img src="./assets/images/js.png" alt="JavaScript">
           <img src="./assets/images/python.png" alt="Python"></div>
-          <div class="event-content">
+          <div class="event-content" data-aos="fade-left" data-aos-delay="400">
             <h4>JavaScript & DOM</h4>
             <p>Started learning and working with Javascript and Python,also building my first two projects using this languages.</p>
           </div>
         </div>
         <div class="timeline-event">
           <div class="event-date">November 2024</div>
-          <div class="event-icon"><img src="./assets/images/django.png" alt="Django">
+          <div class="event-icon" data-aos="zoom-in" data-aos-delay="600"><img src="./assets/images/django.png" alt="Django">
           <img src="./assets/images/postgresql.png" alt="PostgreSQL"></div>
-          <div class="event-content">
+          <div class="event-content" data-aos="fade-left" data-aos-delay="600">
             <h4>Django and PostgreSQL</h4>
             <p>Started working with Django and PostgreSQL databases and built my first full stack project.</p>
           </div>
         </div>
         <div class="timeline-event">
           <div class="event-date">March 2025</div>
-          <div class="event-icon"><img src="./assets/images/physics.png" alt="React"></div>
-          <div class="event-content">
+          <div class="event-icon"><img src="./assets/images/physics.png" alt="React" data-aos="zoom-in" data-aos-delay="800"></div>
+          <div class="event-content" data-aos="fade-left" data-aos-delay="800">
             <h4>React</h4>
             <p>First started working with React and built my last project to complete the course using this framework.</p>
           </div>
         </div>
         <div class="timeline-event">
           <div class="event-date">July 2025</div>
-          <div class="event-icon"><img src="./assets/images/checked.png" alt="Done"></div>
-          <div class="event-content">
+          <div class="event-icon"><img src="./assets/images/checked.png" alt="Done" data-aos="zoom-in" data-aos-delay="1000"></div>
+          <div class="event-content" data-aos="fade-left" data-aos-delay="1000">
             <h4>Achieved Course Graduation</h4>
             <p>Completed the Code Institute Full Stack developer course</p>
           </div>
         </div>
         <div class="timeline-event">
           <div class="event-date">Today</div>
-          <div class="event-icon"><img src="./assets/images/networking.png" alt="Network"></div>
-          <div class="event-content">
+          <div class="event-icon"><img src="./assets/images/networking.png" alt="Network" data-aos="zoom-in" data-aos-delay="1200"></div>
+          <div class="event-content" data-aos="fade-left" data-aos-delay="1200">
             <h4>Building and Networking</h4>
             <p>Keeping on building and improving my portfolio, while strenghtening my knowledge of programming languages and frameworks, developing for small businesses and professional, and looking for new collaborations.</p>
           </div>
@@ -150,6 +153,19 @@
     </div>
   </section>
   <script src="assets/js/script.js"></script>
+  <!-- AOS JS -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    window.addEventListener('load', () => {
+      AOS.init({
+      duration: 1000,
+      easing: 'ease-out',
+      offset: 120,
+      once: true,
+      delay: 0,
+    });
+    })
+  </script>
 </body>
 
 </html>
