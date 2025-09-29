@@ -643,7 +643,8 @@ div#map {
   }
 
   .home-intro2 h2 {
-    font-size: 5rem;
+    font-size: 3.5rem;
+    text-align: center;
   }
 
   .home-intro2 p {
@@ -691,7 +692,8 @@ div#map {
 .carousel img {
   width: 100%;
   flex-shrink: 0;
-  border-radius: 8px;
+  border-radius: 40px;
+  padding: 0 100px;
 }
 
 /* Bottoni */
