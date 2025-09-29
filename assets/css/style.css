@@ -212,15 +212,8 @@ header {
   letter-spacing: 2px;
 }
 
-.animate-on-scroll {
-  opacity: 0;
-  transform: translateY(30px);
-  transition: all 0.6s ease-out;
-}
-
-.animate-on-scroll.show {
-  opacity: 1;
-  transform: translateY(0);
+.desktop-layout {
+  display: none;
 }
 
 .homepage {
@@ -596,17 +589,59 @@ div#map {
     height: 30px;
   }
 
+  .mobile-layout {
+    display: none;
+  }
+
+  .desktop-layout {
+    display: block;
+    padding-bottom: 10px;
+  }
+
+  .intro-img {
+    display: flex;
+    padding-bottom: 20px;
+  }
+
+  .portfolio {
+    width: 50%;
+    padding-top: 20px;
+  }
+
+  .portfolio img {
+    filter: brightness(10%);
+    border-radius: 40px;
+    padding: 50px 50px 10px 50px;
+  }
+
+  .portfolio img:hover {
+    filter: brightness(100%);
+    cursor: pointer;
+  }
+
+  .portfolio p {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "Exo", sans-serif;
+    font-weight: 400;
+  }
+
   .home-intro {
-    padding: 20px 100px;
+    padding: 50px 100px;
+    width: 50%;
+  }
+
+  .home-intro h2 {
+    font-size: 2rem;
+  }
+
+  .home-intro p {
+    font-size: 1.5rem !important;
   }
 
   .home-intro2 {
     margin: 10px;
-    border-radius: 10px
-  }
-
-  .home-intro h2 {
-    font-size: 3rem;
+    border-radius: 10px;
   }
 
   .home-intro2 h2 {
@@ -615,26 +650,6 @@ div#map {
 
   .home-intro2 p {
     padding: 0 0 50px 60px;
-  }
-
-  .homepage h3 {
-    font-size: 3rem;
-    padding-top: 150px;
-    width: 80%;
-  }
-
-  .mobile-layout {
-    display: none;
-  }
-
-  .desktop-layout {
-    display: flex;
-    padding-bottom: 10px;
-  }
-
-  .p1,
-  .p2 {
-    display: flex;
   }
 
   .p1 img,
@@ -661,6 +676,49 @@ div#map {
   .menuitem span {
     font-size: 1rem;
   }
+
+  .carousel {
+  position: relative;
+  max-width: 800px;
+  margin: 40px auto;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+}
+
+.carousel img {
+  width: 100%;
+  flex-shrink: 0;
+  border-radius: 8px;
+}
+
+/* Bottoni */
+.carousel button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 10;
+}
+
+.prev { left: 10px; }
+.next { right: 10px; }
+
+.carousel button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
 
   /*Contact Page*/
 
