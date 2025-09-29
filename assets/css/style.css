@@ -264,6 +264,10 @@ header {
   font-size: 1rem;
 }
 
+.mobile-layout p {
+  padding: 10px;
+}
+
 .home-intro {
   font-family: "Exo", sans-serif;
   font-weight: 400;
