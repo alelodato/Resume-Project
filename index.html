@@ -121,32 +121,42 @@
             <h2 data-i18n="body.home"></h2>
                 <p data-i18n="body.homep"></p>
         </div>
-        <div class="home-intro2">
+        <div class="home-intro2" data-aos="fade-up">
           <h2 data-i18n="body.home2-title"></h2>
-          <div class="p1">
+          <div class="p1" data-aos="fade-up">
             <h3 data-i18n="body.home2-subtitle" ></h3>
-            <div class="desktop-layout">
+            <div class="mobile-layout">
             <img src="./assets/images/sneakersportfolio.webp" alt="project-screenshot" 
-            loading="lazy" data-aos="zoom-in" data-aos-delay="500">
+            loading="lazy" data-aos="zoom-in" data-aos-delay="200">
             <img src="./assets/images/pictureportfolio.webp" alt="project-screenshot"
-            loading="lazy" data-aos="zoom-in" data-aos-delay="800">
+            loading="lazy" data-aos="zoom-in" data-aos-delay="400">
             <img src="./assets/images/saporeportfolio.webp" alt="project-screenshot"
-            loading="lazy" data-aos="zoom-in" data-aos-delay="1000">
+            loading="lazy" data-aos="zoom-in" data-aos-delay="600">
+            </div>
+            <div class="desktop-layout">
+              <img src="./assets/images/sapore-desktop.webp" alt="project-screenshot">
             </div>
           </div>
           <p data-i18n="body.home2-paragraph">
             </p>
-          <div class="p2">
+          
+          <div class="p2" data-aos="fade-up" data-aos-delay="600">
             <h3 data-i18n="body.home2-subtitle2"></h3>
+            <div class="mobile-layout">
             <img src="./assets/images/saporeportfolio2.webp" alt="project-screenshot"
-            loading="lazy" data-aos="fade-left" data-aos-delay="400">
+            loading="lazy" data-aos="fade-left" data-aos-delay="800">
             <img src="./assets/images/vibookportfolio2.webp" alt="project-screenshot"
             loading="lazy" data-aos="zoom-in">
             <img src="./assets/images/picturesportfolio2.webp" alt="project-screenshot" data-aos="fade-right" data-aos-delay="800">
+            </div>
+            <div class="desktop-layout">
+              <img src="./assets/images/vibook-desktop.webp" alt="project-screenshot">
+            </div>
           </div>
           <p data-i18n="body.home2-paragraph2">
             </p>
-          <div class="p3">
+          
+          <div class="p3" data-aos="fade-up" data-aos-delay="1000">
             <h3 data-i18n="body.home2-subtitle3"></h3>
             <div class="deploy-icons">
             <img src="./assets/images/github.png" alt="Github-icon" data-aos="fade-up">
@@ -163,19 +173,20 @@
   </defs></svg>
   </div>
   </div>
-          </div>
-          <p data-i18n="body.home2-paragraph3">
+  <p data-i18n="body.home2-paragraph3">
             </p>
-          <div class="p4">
+          </div>
+          
+          <div class="p4" data-aos="fade-up" data-aos-delay="1200">
             <h3 data-i18n="body.home2-subtitle4"></h3>
             <img src="./assets/images/portfolioresponsive.webp" alt="project-screenshot"
             loading="lazy" data-aos="zoom-in" data-aos-delay="600">
-          </div>
-          <p data-i18n="body.home2-paragraph4">
+            <p data-i18n="body.home2-paragraph4">
             </p>
-        </div>
-        <div class="contact-me">
+          </div>
+          <div class="contact-me">
           <h4 data-i18n="body.contact-me"></h4>
+        </div>
         </div>
     </section>
     <script>
@@ -187,6 +198,7 @@
     <script>
     AOS.init({
     duration: 800,
+    offset:500,
     once: true
     });
     </script>

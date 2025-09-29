@@ -216,6 +216,10 @@ header {
   color: #fff;
 }
 
+.desktop-layout {
+  display: none;
+}
+
 .homepage img {
   width: 100%;
   border-radius: 2px;
@@ -225,7 +229,7 @@ header {
 .p2,
 .p3,
 .p4 {
-  padding: 10px;
+  padding: 0 30px;
 }
 
 .p3 img {
@@ -256,15 +260,15 @@ header {
   font-size: 1rem;
 }
 
-.home-intro,
-.home-intro2 {
-  padding: 10px;
-}
-
 .home-intro {
   font-family: "Exo", sans-serif;
   font-weight: 400;
   text-align: center;
+  padding: 10px;
+}
+
+.home-intro2 {
+  padding: 1px;
 }
 
 .home-intro h2 {
@@ -472,7 +476,6 @@ div#map {
 
 /*Media query for laptops and larger screens (992 and up)*/
 @media screen and (min-width: 992px) {
-
   .name {
     font-size: 4.5rem;
   }
@@ -526,7 +529,6 @@ div#map {
   .project-title h3 {
     font-size: 3.5rem;
   }
-
 }
 
 /*Media query for computers,large laptops and upwards (1200px and higher)*/
@@ -587,6 +589,12 @@ div#map {
     padding: 20px 100px;
   }
 
+  .home-intro2 {
+    background: #18334aa8;
+    margin: 10px;
+    border-radius: 10px
+  }
+
   .home-intro h2 {
     font-size: 3rem;
   }
@@ -596,22 +604,31 @@ div#map {
   }
 
   .home-intro2 p {
-    padding-left: 60px;
+    padding: 0 0 50px 60px;
   }
 
   .homepage h3 {
     font-size: 3rem;
-    padding-top: 50px;
+    padding-top: 150px;
+    width: 80%;
+  }
+
+  .mobile-layout {
+    display: none;
   }
 
   .desktop-layout {
     display: flex;
-    flex-direction: row;
+    padding-bottom: 10px;
+  }
+
+  .p1,
+  .p2 {
+    display: flex;
   }
 
   .p1 img,
   .p2 img {
-    width: 30%;
     padding: 0;
   }
 
@@ -624,7 +641,7 @@ div#map {
   }
 
   .deploy-icons {
-    padding: 10px 100px;
+    padding: 10px 250px;
   }
 
   .menuitem a i {
@@ -657,11 +674,8 @@ div#map {
     font-size: 2rem;
   }
 
-
   .about-me img {
     width: 30%;
     padding: 0;
   }
-
-
 }
