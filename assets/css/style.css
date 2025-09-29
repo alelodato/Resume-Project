@@ -376,15 +376,59 @@ div#map {
   font-size: 1.5rem;
 }
 
-.about-me img {
+.img-p2 img {
   width: 100%;
   padding: 20px;
 }
 
-.progress-type {
-  color: #000000;
-  padding-left: 10px;
+#about-img2 img {
+  border-radius: 20px;
+  width: 100%;
 }
+
+.timeline {
+  font-family: "Exo", sans-serif;
+  position: relative;
+  margin: 50px 0;
+  padding-left: 10px;
+  border-left: 2px solid #ffffff;
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-event .event-date {
+  width: 80px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.timeline-event .event-icon {
+  width: 100%;
+  margin-right: 20px;
+}
+
+.timeline-event .event-icon img {
+  width: 100%;
+}
+
+.timeline-event .event-content {
+  max-width: 600px;
+}
+
+.timeline-event .event-content h4 {
+  margin: 0 0 8px;
+}
+
+.timeline-event .event-content p {
+  margin: 0;
+}
+
 
 .about-me a {
   text-decoration: underline;
