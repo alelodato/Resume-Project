@@ -645,19 +645,23 @@ div#map {
     display: block;
   }
 
+  hr {
+    width: 80%;
+    border-top: 1.5px solid #ffffff;
+  }
+
   .intro-img {
     display: flex;
-    padding-bottom: 20px;
   }
 
   .portfolio {
     width: 50%;
-    padding: 50px;
+    padding: 100px 40px 100px 0;
   }
 
   .portfolio img {
-    filter: brightness(10%);
-    border-radius: 40px;
+    filter: brightness(70%);
+    border-radius: 10px;
   }
 
   .portfolio img:hover {
@@ -686,17 +690,16 @@ div#map {
   }
 
   .home-intro2 {
-    margin: 10px;
     border-radius: 10px;
   }
 
   .home-intro2 h2 {
-    font-size: 3.5rem;
+    font-size: 4rem;
     text-align: center;
   }
 
   .home-intro2 p {
-    padding: 0 0 50px 60px;
+    padding: 0 0 20px 60px;
   }
 
   .p1 img,
@@ -724,12 +727,20 @@ div#map {
     font-size: 1rem;
   }
 
+  .carousel-bckg {
+    background: #343a40b3;
+    margin: 0 150px;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
   .carousel {
   position: relative;
   max-width: 800px;
   margin: 40px auto;
   overflow: hidden;
   border-radius: 8px;
+  padding: 10px;
 }
 
 .carousel-track {
@@ -787,11 +798,63 @@ div#map {
   }
 
   .about-me p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .about-me img {
     width: 30%;
     padding: 0;
   }
+
+  .timeline {
+  font-family: "Exo", sans-serif;
+  position: relative;
+  margin: 50px 0;
+  padding-left: 10px;
+  border-left: 2px solid #ffffff;
+}
+
+.timeline-event {
+  position: relative;
+  margin-bottom: 40px;
+  display: flex;
+  align-items: flex-start;
+}
+
+.timeline-event .event-date {
+  width: 80px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #ffffff;
+}
+
+.timeline-event .event-icon {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.timeline-event .event-icon img {
+  width: 30%;
+  padding-bottom: 10px;
+}
+
+.timeline-event .event-content {
+  max-width: 600px;
+}
+
+.timeline-event .event-content h4 {
+  margin: 0 0 8px;
+}
+
+.timeline-event .event-content p {
+  margin: 0;
+}
+
+.timeline h4 {
+  font-size: 1.5rem;
+}
+
+.timeline p {
+  font-size: 1rem;
+}
 }
