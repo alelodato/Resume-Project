@@ -248,13 +248,15 @@
   <!-- AOS JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init({
+    window.addEventListener('load', () => {
+      AOS.init({
       duration: 1000,
       easing: 'ease-out',
       offset: 120,
       once: true,
-      delay: 0
+      delay: 0,
     });
+    })
   </script>
 </body>
 
