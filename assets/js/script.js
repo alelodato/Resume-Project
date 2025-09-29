@@ -1,40 +1,3 @@
-const track = document.querySelector('.carousel-track');
-const images = document.querySelectorAll('.carousel-track img');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
-
-let index = 0;
-
-function updateCarousel() {
-  const width = track.parentElement.clientWidth;
-  track.style.transform = `translateX(${-index * width}px)`;
-
-  // Disabilita/abilita i bottoni ai bordi
-  prevButton.disabled = index === 0;
-  nextButton.disabled = index === images.length - 1;
-}
-
-nextButton.addEventListener('click', () => {
-  if (index < images.length - 1) {
-    index++;
-    updateCarousel();
-  }
-});
-
-prevButton.addEventListener('click', () => {
-  if (index > 0) {
-    index--;
-    updateCarousel();
-  }
-});
-
-window.addEventListener('resize', updateCarousel);
-
-// Avvio iniziale
-updateCarousel();
-
-
-
 document.addEventListener("DOMContentLoaded", () => {
     const cvButton = document.getElementById("download-cv");
 
@@ -112,28 +75,4 @@ document.addEventListener("DOMContentLoaded", () => {
 (function () {
   emailjs.init('3l6LyOK5VohojizXo');
 })();
-
-document.getElementById('contact-form').addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  emailjs.sendForm('service_sv9m58a', 'template_33hwqck', '#contact-form')
-    .then(() => {
-      const lang = localStorage.getItem('language');
-      if (lang === 'en') {
-        Swal.fire({
-        title: "Message sent successfully!",
-        text: "Thank you for your message, i will reply as soon as possible!",
-      });
-      } else {
-        Swal.fire({
-        title: "Messaggio inviato!",
-        text: "Grazie per il tuo messaggio, risponderó il prima possibile!",
-      });
-      }
-      this.reset();
-    }, (error) => {
-      alert('Failed to send message. Please try again.');
-      console.error(error);
-    });
-});
 

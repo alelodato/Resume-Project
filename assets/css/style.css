@@ -595,7 +595,6 @@ div#map {
 
   .desktop-layout {
     display: block;
-    padding-bottom: 10px;
   }
 
   .intro-img {
@@ -605,13 +604,12 @@ div#map {
 
   .portfolio {
     width: 50%;
-    padding-top: 20px;
+    padding: 50px;
   }
 
   .portfolio img {
     filter: brightness(10%);
     border-radius: 40px;
-    padding: 50px 50px 10px 50px;
   }
 
   .portfolio img:hover {
