@@ -440,6 +440,11 @@ div#map {
   cursor: pointer;
 }
 
+#ci-icon {
+  background: #fff;
+  border-radius: 5px;
+}
+
 /*Alerts*/
 
 .swal2-popup {
