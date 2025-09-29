@@ -707,6 +707,10 @@ div#map {
     padding: 0;
   }
 
+  .p3 img {
+    margin: 50px 0;
+  }
+
   .p4 img {
     padding: 0 250px;
   }
@@ -715,8 +719,27 @@ div#map {
     font-size: 2rem;
   }
 
-  .deploy-icons {
-    padding: 10px 250px;
+  .desktop-icons-p {
+    display: flex;
+  }
+
+  .desktop-icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .vercel {
+    margin: 0;
+  }
+
+  .vercel svg {
+    margin-top: 50px;
+  }
+
+  .deploy-icons p {
+    padding: 20px !important;
+    width: 50%;
   }
 
   .menuitem a i {
@@ -754,6 +777,28 @@ div#map {
   border-radius: 40px;
   padding: 0 100px;
 }
+
+.carousel-indicators {
+  text-align: center;
+  margin-top: 15px;
+  position: static;
+}
+
+.carousel-indicators .dot {
+  display: inline-block;
+  height: 12px;
+  width: 12px;
+  margin: 0 6px;
+  background-color: #bbb;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.carousel-indicators .dot.active {
+  background-color: #333;
+}
+
 
 /* Bottoni */
 .carousel button {
