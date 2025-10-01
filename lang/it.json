@@ -1,36 +1,62 @@
 {
-    "header": {
-        "title2": "Sviluppatore Full Stack",
-        "about":"Su Di Me",
-        "contact": "Contattami",
-        "cv":"Scarica il mio CV"
-    },
-
-    "body": {
+  "header": {
+    "title2": "Sviluppatore Full Stack",
+    "about": "Su Di Me",
+    "contact": "Contattami",
+    "cv": "Scarica il mio CV"
+  },
+  "body": {
     "home": "Ciao! Sono uno sviluppatore full stack specializzato nel front-end, e nel creare esperienze digitali moderne, funzionali ed accessibili.",
     "homep": "Scopri di più <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
+    "desktop-github": "Dai un'occhiata al mio portfolio su Github",
     "home2-title": "Cosa Faccio",
     "home2-subtitle": "🌐Sviluppo frontend (React, JavaScript, design responsive):",
     "home2-paragraph": "Creo siti web veloci, responsive e accessibili utilizzando HTML, CSS e JavaScript moderno, con un forte focus su React e UI/UX pulite.",
     "home2-subtitle2": "🧠 Backend APIs (Django REST, operazioni CRUD, autenticazione)",
     "home2-paragraph2": "Costruisco applicazioni backend robuste e API usando Django, Django REST Framework, Express and Node.js, per gestire dati, logica e integrazioni.",
     "home2-subtitle3": "🛠️ Distribuzione completa del progetto (GitHub Pages, Heroku)",
-    "home2-paragraph3":"Dallo sviluppo alla pubblicazione - gestisco l'intero processo utilizzando Git, GitHub e piattaforme come Heroku o GitHub Pages.",
+    "home2-paragraph3": "Dallo sviluppo alla pubblicazione - gestisco l'intero processo utilizzando Git, GitHub e piattaforme come Heroku o GitHub Pages.",
     "home2-subtitle4": "📈 Performance e Accessibilità",
     "home2-paragraph4": "Ottimizzo ogni progetto per velocità, reattività mobile e accessibilità, assicurando un'esperienza utente fluida su ogni dispositivo.",
-    "contact-me":"<a href='contact.html'>Lavoriamo insieme!</a>"
+    "carousel-description1": "Sneakers Vault - Sito e-commerce per un negozio di sneakers fittizio, realizzato con React ed Express, con sistema di pagamento simulato Stripe.",
+    "carousel-description2": "Pictures And Places - Gioco di geografia interattivo realizzato in Javascript con un database per memorizzare i punteggi dei giocatori.",
+    "carousel-description3": "Sapore Di Mare - Sito web di un ristorante fittizio realizzato con Django, con sistema di prenotazione e pannello di amministrazione.",
+    "carousel-description4": "Pagina di login per un social network, realizzata con React e DjangoRest frameworks.",
+    "carousel-description5": "Sistema di prenotazione di Sapore Di Mare.",
+    "carousel-description6": "Sistema di pagamento simulato di Sneakers Vault alimentato da Stripe Sandbox.",
+    "contact-me": "<a href='contact.html'>Lavoriamo insieme!</a>"
   },
-
   "about": {
-        "title":"Chi Sono",
-        "about-p":"Ho avuto le mie prime esperienze lavorative nella logistica e nel retail, per poi dopo essermi trasferito a Londra nel 2015, iniziare a lavorare nella ristorazione. Ho trascorso quasi dieci anni nel Regno Unito, crescendo sia a livello professionale che personale mentre lavoravo in ristoranti di alto livello e private member clubs.",
-        "about-p2": "Col tempo, però, ho sentito il bisogno di un cambiamento — qualcosa che mi permettesse di creare, imparare continuamente e lavorare da remoto. <br> È così che ho deciso di reinventarmi e di iniziare il mio percorso nel mondo tech. Nel 2024 mi sono iscritto al corso Full Stack Developer del <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a> e ho iniziato a studiare sviluppo web, passando gradualmente verso una carriera più creativa e appagante, fino a lasciare il mio lavoro nella ristorazione, e ottenere il diploma. <br> Questo percorso mi ha insegnato resilienza, disciplina e l'importanza di costruire cose significative, con obiettivi chiari e funzionali. <br> Ora aiuto persone e aziende a portare online le loro idee con siti web intuitivi, reattivi e visivamente coinvolgenti — continuando allo stesso tempo a sviluppare i miei progetti con creatività e passione.",
-        "collab2":"Sentiti libero di <a href='contact.html'>contattarmi</a> o dare un'occhiata ai miei lavori su <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
-    },
-
+    "title": "Chi Sono",
+    "about-p": "Ho avuto le mie prime esperienze lavorative nella logistica e nel retail, per poi dopo essermi trasferito a Londra nel 2015, iniziare a lavorare nella ristorazione. Ho trascorso quasi dieci anni nel Regno Unito, crescendo sia a livello professionale che personale mentre lavoravo in ristoranti di alto livello e private member clubs.",
+    "about-p2": "Col tempo, però, ho sentito il bisogno di un cambiamento — qualcosa che mi permettesse di creare, imparare continuamente e lavorare da remoto. <br> È così che ho deciso di reinventarmi e di iniziare il mio percorso nel mondo tech. Nel 2024 mi sono iscritto al corso Full Stack Developer del <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a> e ho iniziato a studiare sviluppo web, passando gradualmente verso una carriera più creativa e appagante, fino a lasciare il mio lavoro nella ristorazione, e ottenere il diploma. <br>",
+    "about-p3": "Questo percorso mi ha insegnato resilienza, disciplina e l'importanza di costruire cose significative, con obiettivi chiari e funzionali. <br> Ora aiuto persone e aziende a portare online le loro idee con siti web intuitivi, reattivi e visivamente coinvolgenti — continuando allo stesso tempo a sviluppare i miei progetti con creatività e passione.",
+    "timeline-month1": "Maggio 2024",
+    "timeline-title1": "Inizio del mio percorso",
+    "timeline-p1": "Iscritto al corso Full Stack Developer del Code Institute.",
+    "timeline-month2": "Giugno 2024",
+    "timeline-title2": "HTML & CSS",
+    "timeline-p2": "Ho iniziato a studiare HTML e CSS e ho realizzato il mio primo progetto.",
+    "timeline-month3": "Agosto 2024",
+    "timeline-title3": "JavaScript & DOM",
+    "timeline-p3": "Ho iniziato a studiare e lavorare con JavaScript e Python, realizzando anche i miei primi due progetti con questi linguaggi.",
+    "timeline-month4": "Novembre 2024",
+    "timeline-title4": "Django e PostgreSQL",
+    "timeline-p4": "Ho iniziato a lavorare con Django e database PostgreSQL e ho realizzato il mio primo progetto full stack.",
+    "timeline-month5": "Marzo 2025",
+    "timeline-title5": "React",
+    "timeline-p5": "Ho iniziato a lavorare con React e ho realizzato il mio ultimo progetto per completare il corso utilizzando questo framework.",
+    "timeline-month6": "Luglio 2025",
+    "timeline-title6": "Conseguimento del diploma",
+    "timeline-p6": "Ho completato il corso Full Stack Developer del Code Institute.",
+    "timeline-month7": "Oggi",
+    "timeline-title7": "Crescita e Networking",
+    "timeline-p7": "Continuo a costruire e migliorare il mio portfolio, rafforzando le mie conoscenze di linguaggi e framework, sviluppando per piccole imprese e professionisti, e cercando nuove collaborazioni.",
+    "collab2": "Sentiti libero di <a href='contact.html'>contattarmi</a> o dare un'occhiata ai miei lavori su <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
+  },
   "contact": {
-        "title":"Hai un progetto da realizzare?",
-        "title2":"Lavoriamo insieme!",
-        "button":"Invia"
+    "title": "Hai un progetto da realizzare?",
+    "title2": "Lavoriamo insieme!",
+    "button": "Invia"
   }
 }
