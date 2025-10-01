@@ -538,6 +538,10 @@ div#map {
     font-size: 1.5rem;
   }
 
+  .menuitem span {
+    font-size: 0.8rem;
+  }
+
   .title {
     font-size: 2rem;
   }
@@ -553,11 +557,20 @@ div#map {
   .p1 img,
   .p2 img,
   .p4 img {
-    padding: 0 50px;
+    padding: 0 150px;
   }
 
   .home-intro2 p {
     font-size: 2rem;
+  }
+
+  .mobile-layout p {
+    font-size: 1.5rem;
+    padding: 20px;
+  }
+
+  .deploy-icons {
+    width: 80%;
   }
 
   .about-me h3 {
@@ -570,6 +583,14 @@ div#map {
 
   .about-me img {
     padding: 70px;
+  }
+
+  .event-content h4 {
+    font-size: 2.5rem !important;
+  }
+  
+  .event-content p {
+    font-size: 1.5rem !important;
   }
 
   .contact-me a {
@@ -714,7 +735,7 @@ div#map {
   }
 
   .p4 img {
-    padding: 0 250px;
+    padding: 20px 250px;
   }
 
   .homepage p {
