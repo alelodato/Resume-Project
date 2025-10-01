@@ -26,7 +26,6 @@ function loadLanguage(lang) {
   fetch(`../lang/${lang}.json`)
     .then((response) => response.json())
     .then((translations) => {
-      console.log("Traduzioni Caricate:", translations);
       document.querySelectorAll("[data-i18n]").forEach((element) => {
         const key = element.getAttribute("data-i18n");
         const keys = key.split(".");
