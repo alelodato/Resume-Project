@@ -30,7 +30,7 @@
         "title": "About Me",
         "about-p": "I had my first working experiences in logistics and retail, until i moved to London in 2015 and I started working in the hospitality industry. I spent nearly ten years in the UK, growing both professionaly and personally while working in high-end restaurants and private member clubs.",
         "about-p2": "Over the time though i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, eventually leaving my job in hospitality, and achieved my diploma. <br> ",
-        "about-p3": "This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br> Now, I help individuals and businesses bring their ideas to life through intuitive, responsive, and visually engaging websites — while continuing to develop my own projects with creativity and passion.",
+        "about-p3": "This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br>",
         "timeline-month1": "May 2024",
         "timeline-title1": "Started my Journey",
         "timeline-p1": "Enrolled for the Code Institute Full stack Developer Course",
@@ -52,7 +52,7 @@
         "timeline-month7": "Today",
         "timeline-title7": "Building and Networking",
         "timeline-p7": "Keeping on building and improving my portfolio, adding <a href='https://sneakers-vault-jet.vercel.app' target='_blank'>Sneakers Vault</a> to it: an E-Commerce website made using React for the Frontend and Express to manage a checkout system powered by Stripe. In the meantime I'm strengthening my knowledge of programming languages and frameworks, and also starting to develop for small businesses and professionals, while looking for new collaborations and work opportunities.",
-        "collab2": "Feel free to <a href='contact.html'>get in touch</a> or check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
+        "collab2": "Feel free to <a href='contact.html'>get in touch here</a> or on <a href='https://www.linkedin.com/in/alessio-lodato-0541411b8'>Linkedin</a>. You can also check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
     },
     "contact": {
         "title": "Got a project in mind?",

@@ -449,7 +449,16 @@ div#map {
 }
 
 /*Media query for large or landscape phones (570px and up)*/
-@media screen and (min-width: 570px) {}
+@media screen and (min-width: 570px) {
+  .img-p2 img {
+    padding: 50px 100px;
+  }
+
+  .timeline-event .event-icon img {
+    width: 20%;
+    padding-bottom: 10px;
+  }
+}
 
 /*Media query for tablets and larger (768px and up)*/
 @media screen and (min-width: 768px) {
@@ -499,6 +508,10 @@ div#map {
     font-size: 1.5rem;
   }
 
+  .img-p2 img {
+    padding: 50px 100px;
+  }
+
   #form-section {
     padding: 40px 80px;
   }
@@ -516,11 +529,6 @@ div#map {
     height: 40px;
     font-size: 1.2rem;
     padding: 5px;
-  }
-
-  .timeline-event .event-icon {
-    width: 20%;
-    margin-right: 20px;
   }
 
   #ci-icon {
