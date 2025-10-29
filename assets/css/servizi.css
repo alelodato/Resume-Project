@@ -1,0 +1,51 @@
+/* Cards layout per pagina Servizi */
+.cards {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+@media (min-width: 700px) {
+  .cards { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+@media (min-width: 1024px) {
+  .cards { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+.card {
+  border: 1px solid #efeff6;
+  border-radius: 14px;
+  padding: 18px;
+  background: #fff;
+  transition: transform .15s ease, box-shadow .2s ease, border-color .2s ease;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 26px rgba(91,91,255,.10);
+  border-color: #e4e6ff;
+}
+.card .meta {
+  opacity: .8;
+  margin: 6px 0 10px;
+  font-size: .95rem;
+}
+.card .actions { margin-top: 8px; }
+
+.checklist {
+  list-style: none;
+  padding-left: 0; margin: 12px 0 0;
+}
+.checklist li {
+  position: relative;
+  padding-left: 26px;
+  margin: 6px 0;
+}
+.checklist li::before {
+  content: "✓";
+  position: absolute; left: 0; top: 0;
+  color: #5b5bff; font-weight: 700;
+}
+
+/* Dark mode */
+@media (prefers-color-scheme: dark) {
+  .card { background: #12121a; border-color: #232330; }
+  .card:hover { border-color: #2e2e3d; box-shadow: 0 10px 26px rgba(158,165,255,.08); }
+}

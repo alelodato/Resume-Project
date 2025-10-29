@@ -13,7 +13,8 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
     type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/portfolio.css" />
   <script src="https://unpkg.com/i18next@21.6.3/i18next.min.js"></script>
   <script src="https://unpkg.com/i18next-http-backend@1.3.1/i18nextHTTPBackend.min.js"></script>
   <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.2/i18nextBrowserLanguageDetector.min.js"></script>
@@ -59,11 +60,10 @@
                     class="fa-regular fa-address-card"></i></i></i><span data-i18n="header.about"></span></a>
               </li>
               <li class="list-inline-item ui-menu-color-download menuitem">
-                <a href="servizi.html" class="hvr-sweep-to-bottom" id="download-cv"><i class="fa fa-download"
-                    aria-hidden="true"></i><span data-i18n="header.cv">Servizi</span></a>
+                <a href="servizi.html" class="hvr-sweep-to-bottom" id="servizi"><i class="fa-solid fa-briefcase"></i><span data-i18n="header.cv">Servizi</span></a>
               </li>
               <li class="list-inline-item ui-menu-color-github menuitem">
-                <a href="portfolio.html" class="hvr-sweep-to-bottom" target="_blank"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a>
+                <a href="portfolio.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-address-book"></i><span>Portfolio</span></a>
               </li>
               <li class="list-inline-item ui-menu-color-contact menuitem">
                 <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"
@@ -75,16 +75,111 @@
       </div>
     </div>
   </section>
-  <section>
-    <div>
-        <h1 class="text-center mt-5 mb-5" data-i18n="portfolio.title"></h1>
-        <div class="container">
-            <div class="row" id="portfolio-items">
-            <!-- Portfolio items will be inserted here -->
-            </div>
-            <div>
-                
-            </div>
-        </div>
-    </div>
-  </section>
+  <section class="content">
+      <!-- FEATURED PROJECTS -->
+      <section class="projects container" aria-labelledby="projects-heading">
+        <h2 id="projects-heading" class="sr-only" data-i18n="portfolio.projects.heading"></h2>
+
+        <!-- Sneakers Vault -->
+        <article class="project project--featured" aria-labelledby="sv-title">
+          <div class="project-media gallery">
+            <!-- 3 immagini -->
+            <figure>
+              <img src="/assets/portfolio/sneakers-vault/cover-1.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.projects.sv.img1Alt" />
+            </figure>
+            <figure>
+              <img src="/assets/portfolio/sneakers-vault/cover-2.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.projects.sv.img2Alt" />
+            </figure>
+            <figure>
+              <img src="/assets/portfolio/sneakers-vault/cover-3.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.projects.sv.img3Alt" />
+            </figure>
+          </div>
+          <div class="project-body">
+            <!-- Nome progetto resta identico in IT/EN -->
+            <h3 id="sv-title">Sneakers Vault</h3>
+
+            <p class="project-tagline" data-i18n="portfolio.projects.sv.tagline"></p>
+            <p class="project-desc" data-i18n="portfolio.projects.sv.desc"></p>
+
+            <ul class="project-highlights">
+              <li data-i18n="portfolio.projects.sv.hl1"></li>
+              <li data-i18n="portfolio.projects.sv.hl2"></li>
+              <li data-i18n="portfolio.projects.sv.hl3"></li>
+            </ul>
+
+            <p class="project-links">
+              <a href="https://sneakers-vault-jet.vercel.app" target="_blank" rel="noopener" data-i18n="portfolio.common.live"></a>
+              <span aria-hidden="true"> • </span>
+              <a href="https://github.com/alelodato/sneakers-vault/tree/main/sneakers-vault" target="_blank" rel="noopener" data-i18n="portfolio.common.github"></a>
+            </p>
+          </div>
+        </article>
+
+        <!-- Sapore di Mare -->
+        <article class="project" aria-labelledby="sdm-title">
+          <div class="project-media gallery">
+            <!-- 2 immagini -->
+            <figure>
+              <img src="/assets/portfolio/sapore-di-mare/cover-1.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.projects.sdm.img1Alt" />
+            </figure>
+            <figure>
+              <img src="/assets/portfolio/sapore-di-mare/cover-2.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.projects.sdm.img2Alt" />
+            </figure>
+          </div>
+          <div class="project-body">
+            <h3 id="sdm-title">Sapore di Mare</h3>
+
+            <p class="project-tagline" data-i18n="portfolio.projects.sdm.tagline"></p>
+            <p class="project-desc" data-i18n="portfolio.projects.sdm.desc"></p>
+
+            <ul class="project-highlights">
+              <li data-i18n="portfolio.projects.sdm.hl1"></li>
+              <li data-i18n="portfolio.projects.sdm.hl2"></li>
+              <li data-i18n="portfolio.projects.sdm.hl3"></li>
+            </ul>
+
+            <p class="project-links">
+              <a href="https://sapore-di-mare-0503ed908911.herokuapp.com/" target="_blank" rel="noopener" data-i18n="portfolio.common.live"></a>
+              <span aria-hidden="true"> • </span>
+              <a href="https://github.com/alelodato/sapore-di-mare" target="_blank" rel="noopener" data-i18n="portfolio.common.github"></a>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- OTHER WORK -->
+      <section class="highlights container" aria-labelledby="highlights-title">
+        <h2 id="highlights-title" data-i18n="portfolio.highlights.title"></h2>
+
+        <article class="project project--mini" aria-labelledby="ff-title">
+          <div class="project-media gallery">
+            <!-- 2 immagini -->
+            <figure>
+              <img src="/assets/portfolio/future-frames/cover-1.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.highlights.ff.img1Alt" />
+            </figure>
+            <figure>
+              <img src="/assets/portfolio/future-frames/cover-2.jpg" alt="" loading="lazy" data-i18n-attr="alt:portfolio.highlights.ff.img2Alt" />
+            </figure>
+          </div>
+          <div class="project-body">
+            <h3 id="ff-title">Future Frames</h3>
+
+            <p class="project-desc" data-i18n="portfolio.highlights.ff.desc"></p>
+
+            <p class="project-links">
+              <a href="/contact" data-i18n="portfolio.common.contact"></a>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta container" aria-labelledby="cta-title">
+        <h2 id="cta-title" data-i18n="portfolio.cta.title"></h2>
+        <p data-i18n="portfolio.cta.lead"></p>
+        <p class="cta-actions">
+          <a href="/contact" class="btn btn-primary" data-i18n="portfolio.cta.contact"></a>
+          <a href="/Alessio-Lodato-CV.pdf" class="btn btn-secondary" data-i18n="portfolio.cta.cv"></a>
+        </p>
+      </section>
+    </section>

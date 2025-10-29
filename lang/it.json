@@ -3,7 +3,7 @@
     "title2": "Sviluppatore Front End",
     "about": "Su Di Me",
     "contact": "Contattami",
-    "cv": "Scarica il mio CV"
+    "cv": "Servizi"
   },
   "body": {
     "home": "Ciao! Sono uno sviluppatore Front End specializzato nel creare esperienze digitali moderne, funzionali ed accessibili.",
@@ -58,5 +58,132 @@
     "title": "Hai un progetto da realizzare?",
     "title2": "Lavoriamo insieme!",
     "button": "Invia"
+  },
+  "portfolio": {
+    "seo": {
+      "title": "Lavori Selezionati — Portfolio",
+      "description": "Una selezione curata di progetti che uniscono funzionalità, design e storytelling."
+    },
+    "hero": {
+      "title": "Lavori Selezionati",
+      "lead": "Una raccolta di progetti che uniscono funzionalità, design e storytelling. Ognuno rappresenta una sfida diversa — da applicazioni full-stack a siti creativi guidati dall’esperienza."
+    },
+    "projects": {
+      "heading": "Progetti",
+      "sv": {
+        "tagline": "E-commerce full-stack con pagamenti sicuri e UX multilingua",
+        "desc": "Un e-commerce moderno e completamente responsive sviluppato con React (Vite) e un backend leggero Node/Express. Include filtri prodotto avanzati, wishlist, ricerca e un flusso completo di Stripe Checkout. Internazionalizzazione con react-i18next. Deploy su Vercel (frontend) e Railway (backend).",
+        "hl1": "React + Vite • Node/Express • PostgreSQL",
+        "hl2": "Stripe Checkout (success/cancel flow, webhooks pronti)",
+        "hl3": "Ricerca, filtri, wishlist, UI responsive",
+        "img1Alt": "Sneakers Vault — griglia prodotti e filtri",
+        "img2Alt": "Sneakers Vault — flusso di Stripe Checkout",
+        "img3Alt": "Sneakers Vault — wishlist e interfaccia multilingua"
+      },
+      "sdm": {
+        "tagline": "Prenotazioni ristorante con disponibilità tavoli in tempo reale",
+        "desc": "Piattaforma di prenotazione basata su Django con prevenzione sovrapposizioni e mappa tavoli personalizzata in admin con indicatori colore per la disponibilità. Lo staff può modificare la capienza. Test automatici validano creazione prenotazioni e logica di disponibilità.",
+        "hl1": "Django • Admin personalizzato",
+        "hl2": "Mappa tavoli in tempo reale (indicatori disponibilità)",
+        "hl3": "Prevenzione sovrapposizioni • Gestione capienza",
+        "img1Alt": "Sapore di Mare — mappa tavoli in admin con colori di stato",
+        "img2Alt": "Sapore di Mare — form prenotazione e disponibilità"
+      }
+    },
+    "highlights": {
+      "title": "Altri Lavori",
+      "ff": {
+        "desc": "Sito vetrina per uno studio di videomaking: UI futuristica, video hero, sezioni animate, griglie di immagini responsive e form contatti con EmailJS (in corso).",
+        "img1Alt": "Future Frames — sezione hero con video di sfondo",
+        "img2Alt": "Future Frames — griglia animata con effetti hover"
+      }
+    },
+    "cta": {
+      "title": "Pronto a iniziare?",
+      "lead": "Costruiamo qualcosa di moderno, veloce e memorabile.",
+      "contact": "Contattami",
+      "cv": "Scarica CV"
+    },
+    "common": {
+      "live": "Sito Live",
+      "github": "GitHub",
+      "contact": "Scrivimi"
+    }
+  },
+  "services": {
+    "seo": {
+      "title": "Servizi — Esperienze web che funzionano",
+      "description": "Siti moderni, responsive e performanti per valorizzare il tuo brand e migliorare la presenza online."
+    },
+    "hero": {
+      "title": "Esperienze web che funzionano.",
+      "lead": "Realizzo siti moderni, responsive e performanti, progettati per valorizzare il tuo brand e migliorare la tua presenza online. Ogni progetto è curato nel design, nella velocità e nell’ottimizzazione SEO di base."
+    },
+    "overview": {
+      "title": "Cosa posso fare per te",
+      "lead": "Soluzioni su misura per attività locali, liberi professionisti e piccole imprese: siti professionali, semplici da gestire, con possibilità di integrare funzionalità extra come prenotazioni, form contatti o pagamenti sicuri."
+    },
+    "cards": {
+      "common": {
+        "timeline": "Tempistiche tipiche: 1–2 settimane, in base ai contenuti."
+      },
+      "landing": {
+        "title": "Landing Page",
+        "desc": "Sito a pagina singola con sezioni essenziali (hero, servizi, contatti e form). Design curato, animazioni leggere e call-to-action mirate.",
+        "item1": "Struttura chiara orientata alla conversione",
+        "item2": "Animazioni leggere e performance ottimizzate",
+        "item3": "Form contatti semplice e tracciabile"
+      },
+      "dynamic": {
+        "title": "Sito Dinamico",
+        "desc": "Sito con contenuti gestibili in autonomia (immagini e testi). Include un pannello intuitivo e funzionalità base di gestione.",
+        "item1": "Contenuti aggiornabili dal cliente",
+        "item2": "Architettura scalabile e SEO di base",
+        "item3": "Accessi, ruoli e permessi semplici",
+        "note_external": "Per funzionalità specifiche (gestionali, sistemi di prenotazione o pagamento) utilizzo servizi esterni: scelta e costi concordati in fase di progettazione."
+      },
+      "custom": {
+        "title": "Soluzioni Personalizzate",
+        "desc": "Quando serve qualcosa di unico: web app, micro-SaaS, aree riservate o esperienze interattive.",
+        "item1": "Analisi requisiti e prototipo",
+        "item2": "Sviluppo modulare e documentato",
+        "item3": "Deploy e handoff con guida d’uso"
+      }
+    },
+    "extras": {
+      "title": "Integrazioni e servizi extra (opzionali)",
+      "lead": "Puoi aggiungerli in qualunque momento, anche dopo la messa online:",
+      "booking": "Sistemi di prenotazione esterni (Trafft, Setmore, Calendly) — integrazione widget per corsi, appuntamenti o servizi",
+      "payments": "Pagamenti online (Stripe Payment Links) — pulsanti “Paga ora” con pagine di pagamento sicure gestite da Stripe",
+      "forms": "Modulo contatti avanzato — invio automatico email tramite servizio esterno (Formspree / Netlify Forms)",
+      "seo_analytics": "SEO avanzata e Google Analytics — ottimizzazione per motori di ricerca e tracciamento statistiche",
+      "i18n": "Traduzione multilingua — implementazione fino a 3 lingue",
+      "note_costs": "Eventuali costi dei servizi esterni sono a carico del cliente e verranno discussi prima dell’integrazione."
+    },
+    "delivery": {
+      "title": "Consegna e supporto",
+      "item1": "Ottimizzazione per desktop, tablet e mobile",
+      "item2": "1 mese di supporto incluso per correzioni o piccole modifiche",
+      "item3": "Possibilità di manutenzione periodica su richiesta (aggiornamenti, SEO, contenuti)"
+    },
+    "terms": {
+      "title": "Termini di pagamento",
+      "item1": "50% alla conferma del progetto",
+      "item2": "50% alla consegna finale",
+      "note_third_party": "I costi di terze parti (dominio, hosting, abbonamenti SaaS) non sono inclusi e rimangono a carico del cliente."
+    },
+    "notes": {
+      "title": "Note e personalizzazione",
+      "lead": "Ogni progetto viene valutato singolarmente in base alle funzionalità, ai materiali forniti e agli obiettivi. Questo documento è una base di riferimento per creare preventivi personalizzati."
+    },
+    "cta": {
+      "title": "Parliamo del tuo progetto",
+      "lead": "Descrivi l’idea in poche righe: ti rispondo entro 24 ore.",
+      "contact": "Contattami",
+      "pricing": "Scarica guida ai servizi"
+    },
+    "common": {
+      "request_quote": "Richiedi un preventivo"
+    }
   }
 }

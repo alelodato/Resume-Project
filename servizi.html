@@ -13,7 +13,9 @@
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css"
     type="text/css" />
-  <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="stylesheet" href="assets/css/portfolio.css" />
+  <link rel="stylesheet" href="assets/css/servizi.css" />
   <script src="https://unpkg.com/i18next@21.6.3/i18next.min.js"></script>
   <script src="https://unpkg.com/i18next-http-backend@1.3.1/i18nextHTTPBackend.min.js"></script>
   <script src="https://unpkg.com/i18next-browser-languagedetector@6.1.2/i18nextBrowserLanguageDetector.min.js"></script>
@@ -59,11 +61,10 @@
                     class="fa-regular fa-address-card"></i></i></i><span data-i18n="header.about"></span></a>
               </li>
               <li class="list-inline-item ui-menu-color-download menuitem">
-                <a href="servizi.html" class="hvr-sweep-to-bottom" id="download-cv"><i class="fa fa-download"
-                    aria-hidden="true"></i><span data-i18n="header.cv">Servizi</span></a>
+                <a href="servizi.html" class="hvr-sweep-to-bottom" id="servizi"><i class="fa-solid fa-briefcase"></i><span data-i18n="header.cv">Servizi</span></a>
               </li>
               <li class="list-inline-item ui-menu-color-github menuitem">
-                <a href="portfolio.html" class="hvr-sweep-to-bottom" target="_blank"><i class="fa-solid fa-briefcase"></i><span>Portfolio</span></a>
+                <a href="portfolio.html" class="hvr-sweep-to-bottom"><i class="fa-solid fa-address-book"></i><span>Portfolio</span></a>
               </li>
               <li class="list-inline-item ui-menu-color-contact menuitem">
                 <a href="contact.html" class="hvr-sweep-to-bottom"><i class="fa fa-comment-o"
@@ -75,39 +76,107 @@
       </div>
     </div>
   </section>
-  <section>
-    <div class="container" id="services-section">
-      <div class="row">
-        <div class="col text-center">
-          <h2 data-i18n="services.services-title"></h2>
-          <p data-i18n="services.services-subtitle"></p>
+  <main class="content">
+      <!-- OVERVIEW -->
+      <section class="overview container" aria-labelledby="overview-heading" data-aos="fade-up">
+        <h2 id="overview-heading" data-i18n="services.overview.title"></h2>
+        <p data-i18n="services.overview.lead"></p>
+
+        <div class="cards">
+          <!-- Landing Page -->
+          <article class="card" aria-labelledby="svc-landing-title">
+            <h3 id="svc-landing-title" data-i18n="services.cards.landing.title"></h3>
+            <p data-i18n="services.cards.landing.desc"></p>
+            <ul class="checklist">
+              <li data-i18n="services.cards.landing.item1"></li>
+              <li data-i18n="services.cards.landing.item2"></li>
+              <li data-i18n="services.cards.landing.item3"></li>
+            </ul>
+            <p class="meta"><span data-i18n="services.cards.common.timeline"></span></p>
+            <p class="actions">
+              <a href="/contact" class="btn btn-primary" data-i18n="services.common.request_quote"></a>
+            </p>
+          </article>
+
+          <!-- Sito Dinamico -->
+          <article class="card" aria-labelledby="svc-dynamic-title">
+            <h3 id="svc-dynamic-title" data-i18n="services.cards.dynamic.title"></h3>
+            <p data-i18n="services.cards.dynamic.desc"></p>
+            <ul class="checklist">
+              <li data-i18n="services.cards.dynamic.item1"></li>
+              <li data-i18n="services.cards.dynamic.item2"></li>
+              <li data-i18n="services.cards.dynamic.item3"></li>
+            </ul>
+            <p class="meta"><span data-i18n="services.cards.dynamic.note_external"></span></p>
+            <p class="actions">
+              <a href="/contact" class="btn btn-primary" data-i18n="services.common.request_quote"></a>
+            </p>
+          </article>
+
+          <!-- Soluzioni Personalizzate -->
+          <article class="card" aria-labelledby="svc-custom-title">
+            <h3 id="svc-custom-title" data-i18n="services.cards.custom.title"></h3>
+            <p data-i18n="services.cards.custom.desc"></p>
+            <ul class="checklist">
+              <li data-i18n="services.cards.custom.item1"></li>
+              <li data-i18n="services.cards.custom.item2"></li>
+              <li data-i18n="services.cards.custom.item3"></li>
+            </ul>
+            <p class="actions">
+              <a href="/contact" class="btn btn-primary" data-i18n="services.common.request_quote"></a>
+            </p>
+          </article>
         </div>
-      </div>
-      <div class="row" id="services-cards-row">
-        <div class="col-md-4 mb-4">
-          <div class="card service-card" data-aos="fade-up">
-            <div class="card-body">
-              <h5 class="card-title" data-i18n="services.service1-title"></h5>
-              <p class="card-text" data-i18n="services.service1-description"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card service-card" data-aos="fade-up" data-aos-delay="100">
-            <div class="card-body">
-              <h5 class="card-title" data-i18n="services.service2-title"></h5>
-              <p class="card-text" data-i18n="services.service2-description"></p>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-4">
-          <div class="card service-card" data-aos="fade-up" data-aos-delay="200">
-            <div class="card-body">
-              <h5 class="card-title" data-i18n="services.service3-title"></h5>
-              <p class="card-text" data-i18n="services.service3-description"></p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      </section>
+
+      <!-- INTEGRAZIONI & SERVIZI EXTRA -->
+      <section class="value container" aria-labelledby="extras-heading" data-aos="fade-up">
+        <h2 id="extras-heading" data-i18n="services.extras.title"></h2>
+        <p data-i18n="services.extras.lead"></p>
+        <ul class="checklist">
+          <li data-i18n="services.extras.booking"></li>
+          <li data-i18n="services.extras.payments"></li>
+          <li data-i18n="services.extras.forms"></li>
+          <li data-i18n="services.extras.seo_analytics"></li>
+          <li data-i18n="services.extras.i18n"></li>
+        </ul>
+        <p class="meta" data-i18n="services.extras.note_costs"></p>
+      </section>
+
+      <!-- CONSEGNA & SUPPORTO -->
+      <section class="workflow container" aria-labelledby="delivery-heading" data-aos="fade-up">
+        <h2 id="delivery-heading" data-i18n="services.delivery.title"></h2>
+        <ul class="checklist">
+          <li data-i18n="services.delivery.item1"></li>
+          <li data-i18n="services.delivery.item2"></li>
+          <li data-i18n="services.delivery.item3"></li>
+        </ul>
+      </section>
+
+      <!-- TERMINI DI PAGAMENTO -->
+      <section class="workflow container" aria-labelledby="terms-heading" data-aos="fade-up">
+        <h2 id="terms-heading" data-i18n="services.terms.title"></h2>
+        <ul class="checklist">
+          <li data-i18n="services.terms.item1"></li>
+          <li data-i18n="services.terms.item2"></li>
+        </ul>
+        <p class="meta" data-i18n="services.terms.note_third_party"></p>
+      </section>
+
+      <!-- NOTE FINALI -->
+      <section class="workflow container" aria-labelledby="notes-heading" data-aos="fade-up">
+        <h2 id="notes-heading" data-i18n="services.notes.title"></h2>
+        <p data-i18n="services.notes.lead"></p>
+      </section>
+
+      <!-- CTA -->
+      <section class="cta container" aria-labelledby="cta-heading" data-aos="fade-up">
+        <h2 id="cta-heading" data-i18n="services.cta.title"></h2>
+        <p data-i18n="services.cta.lead"></p>
+        <p class="cta-actions">
+          <a href="/contact" class="btn btn-primary" data-i18n="services.cta.contact"></a>
+          <a href="/pricing.pdf" class="btn btn-secondary" data-i18n="services.cta.pricing"></a>
+        </p>
+      </section>
+    </main>
+</body>

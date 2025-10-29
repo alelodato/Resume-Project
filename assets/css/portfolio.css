@@ -1,0 +1,175 @@
+/* === Base reset leggero === */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+  margin: 0;
+  line-height: 1.6;
+  color: #fff;
+    font-family: "Exo";
+}
+
+/* === Helpers === */
+.container {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-inline: 16px;
+}
+.sr-only {
+  position: absolute !important;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden; clip: rect(0,0,0,0);
+  white-space: nowrap; border: 0;
+}
+
+/* === Tipografia & link === */
+h1, h2, h3 { line-height: 1.25; margin: 0 0 8px; }
+h1 { font-size: clamp(1.9rem, 2.6vw + 1rem, 3rem); letter-spacing: -0.02em; }
+h2 { font-size: clamp(1.4rem, 1.6vw + 0.7rem, 2rem); }
+h3 { font-size: clamp(1.15rem, 1.2vw + 0.7rem, 1.5rem); }
+
+p { margin: 0 0 12px; }
+a { color: #5b5bff; text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+/* === Bottoni === */
+.btn {
+  display: inline-block;
+  font-weight: 600;
+  border-radius: 10px;
+  padding: 10px 16px;
+  border: 1px solid transparent;
+  transition: transform .15s ease, box-shadow .2s ease, background-color .2s ease;
+  text-decoration: none;
+  white-space: nowrap;
+}
+.btn-primary { background: #5b5bff; color: #fff; border-color: #5b5bff; }
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 18px rgba(91,91,255,.28); }
+.btn-secondary { background: #f3f4f7; color: #0e0e10; border-color: #e6e7ec; }
+.btn-secondary:hover { background: #eceef3; }
+
+/* === Hero === */
+.page-portfolio .hero {
+  padding: 56px 0 28px;
+  background:
+    radial-gradient(1200px 400px at 50% -150px, rgba(91,91,255,.10), transparent);
+}
+.hero .hero-lead {
+  max-width: 68ch;
+  opacity: .9;
+}
+
+/* === Sezioni principali === */
+.content { padding: 16px 0 72px; }
+.projects { display: grid; gap: 36px; }
+
+/* === Project Card layout === */
+.project {
+  display: grid;
+  gap: 18px;
+  /* Mobile-first: impilato; su viewport grandi diventa 2 colonne */
+}
+.project--featured { border-top: 1px solid #eee; padding-top: 24px; }
+.project + .project { border-top: 1px solid #f1f1f3; padding-top: 24px; }
+
+@media (min-width: 900px) {
+  .project {
+    grid-template-columns: 1.05fr 1fr; /* media / body */
+    align-items: start;
+    gap: 24px;
+  }
+  .project:nth-child(even) {
+    grid-template-columns: 1fr 1.05fr; /* alterna layout per ritmo visivo */
+  }
+}
+
+/* === Gallery immagini === */
+.gallery {
+  display: grid;
+  gap: 10px;
+}
+.gallery figure {
+  margin: 0; border-radius: 12px; overflow: hidden;
+  border: 1px solid #eee;
+}
+.gallery img {
+  display: block;
+  width: 100%; height: auto;
+  transform: scale(1.001);
+  transition: transform .35s ease, filter .35s ease;
+  will-change: transform;
+}
+.gallery img:hover {
+  transform: scale(1.03);
+  filter: saturate(1.02) contrast(1.02);
+}
+
+/* responsive colonne della gallery */
+@media (min-width: 560px) {
+  .project .gallery { grid-template-columns: repeat(2, 1fr); }
+}
+@media (min-width: 900px) {
+  .project--featured .gallery { grid-template-columns: repeat(3, 1fr); }
+}
+
+/* === Contenuto progetto === */
+.project-body .project-tagline {
+  font-weight: 600; opacity: .9; margin-bottom: 6px;
+}
+.project-body .project-desc {
+  opacity: .95;
+}
+.project-highlights {
+  margin: 10px 0 10px 18px;
+}
+.project-highlights li {
+  margin: 4px 0;
+}
+
+/* === Links progetto === */
+.project-links { margin-top: 8px; }
+.project-links a { font-weight: 600; }
+
+/* === Other Work === */
+.highlights { margin-top: 40px; }
+.project--mini {
+  display: grid; gap: 16px;
+  border-top: 1px solid #f1f1f3; padding-top: 24px;
+}
+@media (min-width: 900px) {
+  .project--mini { grid-template-columns: 1.05fr 1fr; }
+}
+.highlights .project-desc { opacity: .95; }
+
+/* === CTA finale === */
+.cta {
+  margin-top: 56px;
+  padding: 28px 20px;
+  background: linear-gradient(180deg, rgba(91,91,255,.06), transparent 60%);
+  border: 1px solid #efeff6;
+  border-radius: 16px;
+}
+.cta-actions { margin-top: 12px; display: flex; gap: 12px; flex-wrap: wrap; }
+
+/* === Animazioni su scroll (se usi AOS mantieni data-aos; altrimenti: fade-in basic) === */
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+[data-aos="fade-up"] { animation: fadeUp .6s ease both; }
+
+/* === Dark mode (se il sito la supporta) === */
+@media (prefers-color-scheme: dark) {
+  body { color: #f6f7fb; background: #0b0b10; }
+  .btn-secondary { background: #1a1a22; color: #f6f7fb; border-color: #2a2a34; }
+  a { color: #9ea5ff; }
+  .project--featured,
+  .project + .project,
+  .project--mini,
+  .cta { border-color: #21212b; }
+  .gallery figure { border-color: #1e1e27; }
+  .cta { background: linear-gradient(180deg, rgba(158,165,255,.08), transparent 60%); }
+}

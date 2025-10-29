@@ -3,7 +3,7 @@
         "title2": "Front End Developer",
         "about": "About",
         "contact": "Contact Me",
-        "cv": "Download CV"
+        "cv": "Services"
     },
     "body": {
         "home": "Hi! I'm a front end developer specialised on building modern, functional and accessible digital experiences.",
@@ -58,5 +58,132 @@
         "title": "Got a project in mind?",
         "title2": "Let's work together!",
         "button": "Send"
+    },
+    "portfolio": {
+        "seo": {
+            "title": "Selected Work — Portfolio",
+            "description": "A curated selection of projects blending functionality, design, and storytelling."
+        },
+        "hero": {
+            "title": "Selected Work",
+            "lead": "A collection of projects that blend functionality, design, and storytelling. Each one represents a different challenge — from full-stack applications to creative, experience-driven websites."
+        },
+        "projects": {
+            "heading": "Projects",
+            "sv": {
+                "tagline": "Full-stack e-commerce with secure payments and multilingual UX",
+                "desc": "A modern, fully responsive e-commerce built with React (Vite) and a lightweight Node/Express backend. It ships advanced product filters, wishlist, search, and a complete Stripe Checkout flow. Internationalization with react-i18next. Deployed on Vercel (frontend) and Railway (backend).",
+                "hl1": "React + Vite • Node/Express • PostgreSQL",
+                "hl2": "Stripe Checkout (success/cancel flow, webhooks ready)",
+                "hl3": "Search, filters, wishlist, responsive UI",
+                "img1Alt": "Sneakers Vault — product grid and filters",
+                "img2Alt": "Sneakers Vault — Stripe Checkout flow",
+                "img3Alt": "Sneakers Vault — wishlist and multilingual UI"
+            },
+            "sdm": {
+                "tagline": "Restaurant booking with real-time table availability",
+                "desc": "Django-based booking platform with overlap prevention and a custom admin table map with color indicators for availability. Staff can edit table capacity. Automated tests validate booking creation and core availability logic.",
+                "hl1": "Django • Custom Admin UX",
+                "hl2": "Real-time table map (availability indicators)",
+                "hl3": "Overlap prevention • Capacity management",
+                "img1Alt": "Sapore di Mare — admin table map with status colors",
+                "img2Alt": "Sapore di Mare — booking form and availability"
+            }
+        },
+        "highlights": {
+            "title": "Other Work",
+            "ff": {
+                "desc": "Showcase site for a videomaking studio: futuristic UI, hero video, animated sections, responsive image grids and an EmailJS contact flow (in progress).",
+                "img1Alt": "Future Frames — hero section with video background",
+                "img2Alt": "Future Frames — animated grid and hover effects"
+            }
+        },
+        "cta": {
+            "title": "Ready to start?",
+            "lead": "Let’s build something modern, fast, and memorable.",
+            "contact": "Contact Me",
+            "cv": "Download CV"
+        },
+        "common": {
+            "live": "Live Site",
+            "github": "GitHub",
+            "contact": "Get in touch"
+        }
+    },
+  "services": {
+    "seo": {
+      "title": "Services — Web Experiences that Work",
+      "description": "Modern, responsive and performant websites to elevate your brand and online presence."
+    },
+    "hero": {
+      "title": "Web experiences that work.",
+      "lead": "I craft modern, responsive and high-performance websites designed to elevate your brand and strengthen your online presence. Each project is carefully built with design, speed and basic SEO in mind."
+    },
+    "overview": {
+      "title": "How I can help",
+      "lead": "Tailored solutions for local businesses, freelancers and small brands: professional, easy-to-manage sites with optional extras like bookings, contact forms or secure payments."
+    },
+    "cards": {
+      "common": {
+        "timeline": "Typical timeline: 1–2 weeks, depending on content."
+      },
+      "landing": {
+        "title": "Landing Page",
+        "desc": "Single-page site with essential sections (hero, services, contact and form). Thoughtful design, light animations and focused calls-to-action.",
+        "item1": "Clear structure focused on conversion",
+        "item2": "Subtle animations and optimized performance",
+        "item3": "Simple, trackable contact form"
+      },
+      "dynamic": {
+        "title": "Dynamic Site",
+        "desc": "A site where you can manage content autonomously (images and text). Includes a simple admin and basic content management features.",
+        "item1": "Client-editable content",
+        "item2": "Scalable architecture with basic SEO",
+        "item3": "Simple roles and access",
+        "note_external": "For specific features (management systems, bookings, payments) I integrate third-party services. Choices and costs are agreed during the planning phase."
+      },
+      "custom": {
+        "title": "Custom Solutions",
+        "desc": "When you need something unique: web apps, micro-SaaS, gated areas or interactive experiences.",
+        "item1": "Requirements analysis and prototyping",
+        "item2": "Modular, well-documented development",
+        "item3": "Deployment and handoff with usage guide"
+      }
+    },
+    "extras": {
+      "title": "Integrations & extras (optional)",
+      "lead": "You can add them anytime, even after launch:",
+      "booking": "External booking systems (Trafft, Setmore, Calendly) — widget integration for classes, appointments or services",
+      "payments": "Online payments (Stripe Payment Links) — “Pay now” buttons with secure Stripe-hosted pages",
+      "forms": "Advanced contact form — automatic email delivery via external service (Formspree / Netlify Forms)",
+      "seo_analytics": "Advanced SEO and Google Analytics — search optimization and traffic tracking",
+      "i18n": "Multilingual setup — up to 3 languages",
+      "note_costs": "Any third-party fees are paid by the client and will be discussed before integration."
+    },
+    "delivery": {
+      "title": "Delivery & support",
+      "item1": "Optimized for desktop, tablet and mobile",
+      "item2": "1 month of support included for fixes or small changes",
+      "item3": "Optional maintenance plans (updates, SEO, content)"
+    },
+    "terms": {
+      "title": "Payment terms",
+      "item1": "50% at project confirmation",
+      "item2": "50% upon final delivery",
+      "note_third_party": "Third-party costs (domain, hosting, SaaS subscriptions) are not included and remain at the client’s expense."
+    },
+    "notes": {
+      "title": "Notes & customization",
+      "lead": "Each project is evaluated based on features, provided materials and goals. This page serves as a reference to create tailored proposals."
+    },
+    "cta": {
+      "title": "Let’s bring your project online",
+      "lead": "Describe your idea in a few lines — I’ll reply within 24 hours.",
+      "contact": "Contact Me",
+      "pricing": "Download services guide"
+    },
+    "common": {
+      "request_quote": "Request a Quote"
     }
+  }
 }
