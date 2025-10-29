@@ -602,7 +602,7 @@ div#map {
   }
 
   .contact-me a {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   #form-section {
@@ -676,6 +676,10 @@ div#map {
     display: block;
   }
 
+  .homepage h3 {
+    font-size: 2rem;
+  }
+
   hr {
     width: 80%;
     border-top: 1.5px solid #ffffff;
@@ -733,9 +737,20 @@ div#map {
     padding: 0 0 20px 60px;
   }
 
+  .p1,
+  .p2,
+  .p4 {
+    padding: 50px;
+  }
+
   .p1 img,
   .p2 img {
     padding: 0;
+  }
+
+  .p3 {
+    padding-top: 50px;
+    padding-bottom: 50px;
   }
 
   .p3 img {
@@ -747,7 +762,7 @@ div#map {
   }
 
   .homepage p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .desktop-icons-p {

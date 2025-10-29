@@ -108,7 +108,6 @@ a:hover { text-decoration: underline; }
   gap: 18px;
   /* Mobile-first: impilato; su viewport grandi diventa 2 colonne */
 }
-.project--featured { border-top: 1px solid #eee; padding-top: 24px; }
 .project + .project { border-top: 1px solid #f1f1f3; padding-top: 24px; }
 
 @media (min-width: 900px) {
@@ -176,6 +175,16 @@ a:hover { text-decoration: underline; }
   border-top: 1px solid #f1f1f3; padding-top: 24px;
 }
 @media (min-width: 900px) {
+  .gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.project-body {
+  padding-top: 50px;
+  padding-left: 100px;
+}
   .project--mini { grid-template-columns: 1.05fr 1fr; }
 }
 .highlights .project-desc { opacity: .95; }
