@@ -93,8 +93,6 @@ a:hover { text-decoration: underline; }
 /* === Hero === */
 .page-portfolio .hero {
   padding: 56px 0 28px;
-  background:
-    radial-gradient(1200px 400px at 50% -150px, rgba(91,91,255,.10), transparent);
 }
 .hero .hero-lead {
   max-width: 68ch;
@@ -199,16 +197,3 @@ a:hover { text-decoration: underline; }
   to   { opacity: 1; transform: translateY(0); }
 }
 [data-aos="fade-up"] { animation: fadeUp .6s ease both; }
-
-/* === Dark mode (se il sito la supporta) === */
-@media (prefers-color-scheme: dark) {
-  body { color: #f6f7fb; background: #0b0b10; }
-  .btn-secondary { background: #1a1a22; color: #f6f7fb; border-color: #2a2a34; }
-  a { color: #9ea5ff; }
-  .project--featured,
-  .project + .project,
-  .project--mini,
-  .cta { border-color: #21212b; }
-  .gallery figure { border-color: #1e1e27; }
-  .cta { background: linear-gradient(180deg, rgba(158,165,255,.08), transparent 60%); }
-}
