@@ -1,5 +1,47 @@
 /* Cards layout per pagina Servizi */
 
+body {
+    background-color: #383d41;
+  background-image: linear-gradient(30deg,
+      #166945 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #166945 87.5%,
+      #166945),
+    linear-gradient(150deg,
+      #166945 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #166945 87.5%,
+      #166945),
+    linear-gradient(30deg,
+      #166945 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #166945 87.5%,
+      #166945),
+    linear-gradient(150deg,
+      #166945 12%,
+      transparent 12.5%,
+      transparent 87%,
+      #166945 87.5%,
+      #166945),
+    linear-gradient(60deg,
+      #16694577 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #16694577 75%,
+      #16694577),
+    linear-gradient(60deg,
+      #16694577 25%,
+      transparent 25.5%,
+      transparent 75%,
+      #16694577 75%,
+      #16694577);
+  background-size: 80px 140px;
+  background-position: 0 0, 0 0, 40px 70px, 40px 70px, 0 0, 40px 70px;
+}
+
 #overview-heading {
     padding-top: 50px;
 }
@@ -16,6 +58,7 @@
     margin-top: 16px;
     padding-bottom: 50px;
     padding-top: 50px;
+    background-color: #fff;
 }
 
 @media (min-width: 700px) {
