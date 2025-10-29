@@ -116,16 +116,3 @@ body {
     color: #5b5bff;
     font-weight: 700;
 }
-
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    .card {
-        background: #12121a;
-        border-color: #232330;
-    }
-
-    .card:hover {
-        border-color: #2e2e3d;
-        box-shadow: 0 10px 26px rgba(158, 165, 255, .08);
-    }
-}
