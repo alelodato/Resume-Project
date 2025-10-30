@@ -1,3 +1,9 @@
+> **Note:**  
+> This website was originally built in pure HTML, CSS, and vanilla JavaScript during my web development course.  
+> It represents one of my first complete projects while I was still learning the fundamentals of frontend development.  
+> A future version of this portfolio will be rebuilt with **React** to provide better scalability, maintainability, and improved UX.
+
+
 # 💼 Resume Project — Personal Portfolio Website
 
 A responsive, multilingual resume website built with HTML, CSS, and JavaScript. Designed to showcase a developer's skills, work history, and contact information, this portfolio is easily customizable and deployable via GitHub Pages.
