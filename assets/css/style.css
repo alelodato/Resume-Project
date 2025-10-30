@@ -257,6 +257,76 @@ header {
   padding: 10px;
 }
 
+/* --- Mobile carousel indicators (non tocca il desktop) --- */
+.mobile-carousel-indicators {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 10px;
+}
+.mobile-carousel-indicators .dot {
+  width: 8px;
+  height: 8px;
+  background: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: background .25s ease;
+}
+.mobile-carousel-indicators .dot.active {
+  background: #5b5bff;
+}
+
+/* MOBILE CAROUSEL STYLING */
+@media (max-width: 767px) {
+  .mobile-carousel {
+    position: relative;
+    overflow: hidden;
+    margin: 30px auto;
+    text-align: center;
+  }
+
+  .mobile-carousel .carousel-track a {
+    display: none;
+  }
+
+  .mobile-carousel .carousel-track a img {
+    width: 85%;
+    border-radius: 10px;
+    border: 2px solid #5b5bff2a;
+    box-shadow: 0 0 10px rgba(91, 91, 255, 0.15);
+    transition: opacity 0.3s ease-in-out;
+  }
+
+  .mobile-carousel-indicators {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 10px;
+  }
+
+  .mobile-carousel-indicators .dot {
+    width: 8px;
+    height: 8px;
+    background: #cfcfcf;
+    border-radius: 50%;
+    transition: background 0.25s ease;
+  }
+
+  .mobile-carousel-indicators .dot.active {
+    background: #5b5bff;
+  }
+}
+
+
+/* Se vuoi un leggero fade senza rompere layout */
+@media (max-width: 767px) {
+  .mobile-layout .p1 a,
+  .mobile-layout .p2 a {
+    transition: opacity .25s ease;
+  }
+}
+
+
 .home-intro {
   font-family: "Exo", sans-serif;
   font-weight: 400;
@@ -296,6 +366,36 @@ div#map {
   min-height: 360px;
 }
 
+/* Portfolio link (mobile-only tweak safe) */
+.portfolio-link {
+  text-align: center;
+  margin: 30px auto;
+  border-top: 1px solid #efeff6;
+  padding-top: 20px;
+}
+.portfolio-link a { color: #5b5bff; font-weight: 600; text-decoration: none; }
+.portfolio-link a:hover { text-decoration: underline; }
+
+/* Services summary (mobile) */
+.services-summary {
+  text-align: center;
+  border-top: 1px solid #efeff6;
+  padding: 36px 0;
+  background: linear-gradient(180deg, rgba(91,91,255,0.06), transparent 70%);
+}
+.services-summary p { max-width: 70ch; margin: 0 auto 8px; }
+.services-summary .btn {
+  display: inline-block;
+  margin-top: 12px;
+  background: #5b5bff;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+.services-summary .btn:hover { opacity: .9; }
+
+
 .contact-me {
   text-align: center;
   padding-bottom: 20px;
@@ -303,7 +403,7 @@ div#map {
 
 .contact-me a {
   font-family: "Exo", sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   color: #fafafa;
   text-decoration: underline;
 }

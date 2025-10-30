@@ -75,64 +75,50 @@
     </div>
   </section>
   <section class="homepage">
-    <div class="mobile-layout">
-      <div class="home-intro">
-        <h2 data-i18n="body.home"></h2>
-        <p data-i18n="body.homep"></p>
-      </div>
-      <div class="home-intro2">
-        <h2 data-i18n="body.home2-title" data-aos="fade-right"></h2>
-        <div class="p1">
-          <h3 data-i18n="body.home2-subtitle" data-aos="fade-left"></h3>
-          <a href="https://sneakers-vault-jet.vercel.app/" target="_blank"><img src="./assets/images/sneakersportfolio.webp" alt="project-screenshot" loading="lazy" data-aos="zoom-in"></a>
-          <a href="https://pictures-and-places-git-main-alessios-projects-3d3336a0.vercel.app/" target="_blank"><img src="./assets/images/pictureportfolio.webp" alt="project-screenshot" loading="lazy" data-aos="zoom-in" data-aos-delay="200"></a>
-          <a href="https://sapore-di-mare-0503ed908911.herokuapp.com/" target="_blank"><img src="./assets/images/saporeportfolio.webp" alt="project-screenshot" loading="lazy" data-aos="zoom-in" data-aos-delay="400"></a>
-        </div>
-      </div>
-      <p data-i18n="body.home2-paragraph">
-      </p>
+<!-- ...existing code... -->
+<div class="mobile-layout">
+ <!-- === FRONTEND SECTION (p1) === -->
+<div class="p1 mobile-carousel" data-aos="fade-up">
+  <h3 data-i18n="body.home2-subtitle" data-aos="fade-left"></h3>
+  <div class="carousel-track">
+    <a href="https://sneakers-vault-jet.vercel.app/" target="_blank">
+      <img src="./assets/images/sneakersportfolio.webp" alt="project-screenshot" loading="lazy">
+    </a>
+    <a href="https://pictures-and-places-git-main-alessios-projects-3d3336a0.vercel.app/" target="_blank">
+      <img src="./assets/images/pictureportfolio.webp" alt="project-screenshot" loading="lazy">
+    </a>
+    <a href="https://sapore-di-mare-0503ed908911.herokuapp.com/" target="_blank">
+      <img src="./assets/images/saporeportfolio.webp" alt="project-screenshot" loading="lazy">
+    </a>
+  </div>
+  <div class="mobile-carousel-indicators"></div>
+</div>
 
-      <div class="p2" >
-        <h3 data-i18n="body.home2-subtitle2" data-aos="fade-left"></h3>
-        <div class="mobile-layout">
-          <a href="https://sapore-di-mare-0503ed908911.herokuapp.com/booking/reservations/" target="_blank"><img src="./assets/images/saporeportfolio2.webp" alt="project-screenshot" loading="lazy" data-aos="fade-left"></a>
-          <a href="https://vibook-557c0bb75197.herokuapp.com/signin" target="_blank"><img src="./assets/images/vibookportfolio2.webp" alt="project-screenshot" loading="lazy" data-aos-delay="200" data-aos="zoom-in"></a>
-          <a href="https://sneakers-vault-jet.vercel.app/" target="_blank"><img src="./assets/images/sneakers-portfolio2.webp" alt="project-screenshot" data-aos="fade-right"
-            data-aos-delay="400"></a>
-        </div>
-      </div>
-      <p data-i18n="body.home2-paragraph2">
-      </p>
-      <div class="p3">
-        <h3 data-i18n="body.home2-subtitle3" data-aos="fade-left"></h3>
-        <div class="deploy-icons">
-          <img src="./assets/images/github.png" alt="Github-icon" data-aos="fade-up">
-          <img src="./assets/images/heroku.png" alt="Heroku" width="30" data-aos="fade-up" data-aos-delay="200">
-          <div class="vercel" data-aos="fade-up" data-aos-delay="400">
-            <svg data-testid="geist-icon" stroke-linejoin="round" style="color:currentColor" viewBox="0 0 16 16">
-              <g clip-path="url(#clip0_872_3186)">
-                <circle cx="8" cy="8" r="7.25" fill="currentColor" stroke="currentColor" stroke-width="1.5"
-                  stroke-linecap="round" stroke-linejoin="round"></circle>
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M8 4.5L11.5 10.625H4.5L8 4.5Z"
-                  fill="var(--ds-gray-100)"></path>
-              </g>
-              <defs>
-                <clipPath id="clip0_872_3186">
-                  <rect width="16" height="16" fill="white"></rect>
-                </clipPath>
-              </defs>
-            </svg>
-          </div>
-        </div>
-        <p data-i18n="body.home2-paragraph3"></p>
-      </div>
-      <div class="p4" data-aos="fade-left" data-aos-easing="ease-in-out">
-        <h3 data-i18n="body.home2-subtitle4"></h3>
-        <img src="./assets/images/portfolioresponsive.webp" alt="project-screenshot" loading="lazy" data-aos="zoom-in"
-          data-aos-delay="200" data-aos-easing="ease-in-out">
-        <p data-i18n="body.home2-paragraph4"></p>
-      </div>
-    </div>
+<!-- paragrafo sotto al carousel -->
+<p data-i18n="body.home2-paragraph"></p>
+
+<!-- === BACKEND SECTION (p2) === -->
+<div class="p2 mobile-carousel" data-aos="fade-up">
+  <h3 data-i18n="body.home2-subtitle2" data-aos="fade-left"></h3>
+  <div class="carousel-track">
+    <a href="https://sapore-di-mare-0503ed908911.herokuapp.com/booking/reservations/" target="_blank">
+      <img src="./assets/images/saporeportfolio2.webp" alt="project-screenshot" loading="lazy">
+    </a>
+    <a href="https://vibook-557c0bb75197.herokuapp.com/signin" target="_blank">
+      <img src="./assets/images/vibookportfolio2.webp" alt="project-screenshot" loading="lazy">
+    </a>
+    <a href="https://sneakers-vault-jet.vercel.app/" target="_blank">
+      <img src="./assets/images/sneakers-portfolio2.webp" alt="project-screenshot" loading="lazy">
+    </a>
+  </div>
+  <div class="mobile-carousel-indicators"></div>
+</div>
+
+<!-- paragrafo sotto al carousel -->
+<p data-i18n="body.home2-paragraph2"></p>
+
+</div>
+<!-- ...existing code... -->
     <div class="desktop-layout">
       <div class="intro-img">
         <div class="home-intro">
@@ -239,6 +225,23 @@
         </div>
       </div>
     </div>
+    <!-- Link al Portfolio (mobile) -->
+<div class="portfolio-link" data-aos="fade-up">
+  <p data-i18n="body.portfolio-intro"></p>
+  <a href="./portfolio.html" data-i18n="body.portfolio-link"></a>
+</div>
+
+<!-- Mini sezione Servizi (mobile) -->
+<div class="services-summary" data-aos="fade-up">
+  <h3 data-i18n="body.services-title"></h3>
+  <p data-i18n="body.services-line1"></p>
+  <p data-i18n="body.services-line2"></p>
+  <p data-i18n="body.services-line3"></p>
+  <p data-i18n="body.services-line4"></p>
+  <p data-i18n="body.services-line5"></p>
+  <a href="./servizi.html" class="btn" data-i18n="body.services-btn"></a>
+</div>
+
     <div class="contact-me">
       <h4 data-i18n="body.contact-me"></h4>
     </div>
@@ -248,6 +251,7 @@
   </script>
   <script src="assets/js/script.js"></script>
   <script src="assets/js/carousel.js"></script>
+  <script src="assets/js/mobile-carousel.js"></script>
   <!-- AOS JS -->
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>

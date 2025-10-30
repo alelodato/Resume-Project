@@ -1,115 +1,124 @@
 {
-    "header": {
-        "title2": "Front End Developer",
-        "about": "About",
-        "contact": "Contact Me",
-        "cv": "Services"
+  "header": {
+    "title2": "Front End Developer",
+    "about": "About",
+    "contact": "Contact Me",
+    "cv": "Services"
+  },
+  "body": {
+    "home": "Hi! I'm a front end developer specialised on building modern, functional and accessible digital experiences.",
+    "homep": "Read More <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
+    "desktop-github": "Check my full portfolio on Github",
+    "home2-title": "What I Do",
+    "portfolio-intro": "Want to see more projects?",
+    "portfolio-link": "Visit the portfolio",
+    "services-title": "Services",
+    "services-line1": "I create modern, responsive and fast websites.",
+    "services-line2": "Each project is tailored to your goals and audience.",
+    "services-line3": "From landing pages to dynamic full-featured sites.",
+    "services-line4": "Integrations available: bookings, contact forms, payments.",
+    "services-line5": "Clear workflow: Discovery → Design → Development → Delivery.",
+    "services-btn": "Explore all services",
+    "home2-subtitle": "Frontend development (React, JavaScript, HTML & CSS, Responsive Design):",
+    "home2-paragraph": "I build fast, responsive, and accessible websites using React, modern JavaScript, HTML and CSS - always with a strong focus on clean UI/UX",
+    "home2-subtitle2": "Full Stack Experience with Backend APIs (Django REST, Express, CRUD operations, authentication)",
+    "home2-paragraph2": "I can also create robust backend applications and APIs using Django, Django REST Framework, Express and Node.js, to handle data, logic and integrations.",
+    "home2-subtitle3": "Full project deployment (GitHub Pages, Heroku, Vercel, Render)",
+    "home2-paragraph3": "From coding to deployment - I manage the full process using Git, GitHub, and platforms like Heroku, Vercel, Render or Github Pages.",
+    "home2-subtitle4": "Performance & Accessibility",
+    "home2-paragraph4": "I optimize every project for speed, mobile responsiveness, and accessibility, ensuring a smooth user experience on any device.",
+    "carousel-description1": "Sneakers Vault - E Commerce Website for a fictional sneakers online shop, made with React and Express, using Stripe sandbox for mock payment system.",
+    "carousel-description2": "Pictures And Places - Interactive Geography game made with Javascript and with a backend database to store player scores.",
+    "carousel-description3": "Sapore Di Mare - Fictional Restaurant's Website made with Django, that features a booking system and admin panel for management.",
+    "carousel-description4": "Login page for a social network website, made using React and DjangoRest frameworks.",
+    "carousel-description5": "Sapore Di Mare's booking system.",
+    "carousel-description6": "Sneakers Vault payment mock system powered by Stripe Sandbox.",
+    "contact-me": "<a href='contact.html'>Let's work together!</a>"
+  },
+  "about": {
+    "title": "About Me",
+    "about-p": "I had my first working experiences in logistics and retail, until i moved to London in 2015 and I started working in the hospitality industry. I spent nearly ten years in the UK, growing both professionaly and personally while working in high-end restaurants and private member clubs.",
+    "about-p2": "Over the time though i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, eventually leaving my job in hospitality, and achieved my diploma. <br> ",
+    "about-p3": "This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br>",
+    "timeline-month1": "May 2024",
+    "timeline-title1": "Started my Journey",
+    "timeline-p1": "Enrolled for the Code Institute Full stack Developer Course",
+    "timeline-month2": "June 2024",
+    "timeline-title2": "HTML & CSS",
+    "timeline-p2": "Started learning HTML and CSS and built my first project.",
+    "timeline-month3": "August 2024",
+    "timeline-title3": "JavaScript & DOM",
+    "timeline-p3": "Started learning and working with JavaScript and Python, also building <a href='https://alelodato.github.io/Pictures-and-Places' target='_blank'>Pictures and Places</a> as my second portfolio project.",
+    "timeline-month4": "November 2024",
+    "timeline-title4": "Django and PostgreSQL",
+    "timeline-p4": "Started working with Django and PostgreSQL databases and built <a href='https://sapore-di-mare-0503ed908911.herokuapp.com' target='_blank'>Sapore Di Mare</a>, my first full stack project.",
+    "timeline-month5": "March 2025",
+    "timeline-title5": "React",
+    "timeline-p5": "First started working with React and built <a href='https://vibook-557c0bb75197.herokuapp.com' target='_blank'>Vibook</a>, my last project to complete the course using this framework.",
+    "timeline-month6": "July 2025",
+    "timeline-title6": "Achieved Course Graduation",
+    "timeline-p6": "Completed the Code Institute Full Stack developer course.",
+    "timeline-month7": "Today",
+    "timeline-title7": "Building and Networking",
+    "timeline-p7": "Keeping on building and improving my portfolio, adding <a href='https://sneakers-vault-jet.vercel.app' target='_blank'>Sneakers Vault</a> to it. In the meantime I'm strengthening my knowledge of programming languages and frameworks, and also starting to develop for small businesses and professionals, while looking for new collaborations and work opportunities.",
+    "collab2": "Feel free to <a href='contact.html'>get in touch here</a> or on <a href='https://www.linkedin.com/in/alessio-lodato-0541411b8'>Linkedin</a>. You can also check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
+  },
+  "contact": {
+    "title": "Got a project in mind?",
+    "title2": "Let's work together!",
+    "button": "Send"
+  },
+  "portfolio": {
+    "seo": {
+      "title": "Selected Work — Portfolio",
+      "description": "A curated selection of projects blending functionality, design, and storytelling."
     },
-    "body": {
-        "home": "Hi! I'm a front end developer specialised on building modern, functional and accessible digital experiences.",
-        "homep": "Read More <a href='resume.html'><i class='fa-regular fa-circle-right'></i></a>",
-        "desktop-github": "Check my full portfolio on Github",
-        "home2-title": "What I Do",
-        "home2-subtitle": "Frontend development (React, JavaScript, HTML & CSS, Responsive Design):",
-        "home2-paragraph": "I build fast, responsive, and accessible websites using React, modern JavaScript, HTML and CSS - always with a strong focus on clean UI/UX",
-        "home2-subtitle2": "Full Stack Experience with Backend APIs (Django REST, Express, CRUD operations, authentication)",
-        "home2-paragraph2": "I can also create robust backend applications and APIs using Django, Django REST Framework, Express and Node.js, to handle data, logic and integrations.",
-        "home2-subtitle3": "Full project deployment (GitHub Pages, Heroku, Vercel, Render)",
-        "home2-paragraph3": "From coding to deployment - I manage the full process using Git, GitHub, and platforms like Heroku, Vercel, Render or Github Pages.",
-        "home2-subtitle4": "Performance & Accessibility",
-        "home2-paragraph4": "I optimize every project for speed, mobile responsiveness, and accessibility, ensuring a smooth user experience on any device.",
-        "carousel-description1": "Sneakers Vault - E Commerce Website for a fictional sneakers online shop, made with React and Express, using Stripe sandbox for mock payment system.",
-        "carousel-description2": "Pictures And Places - Interactive Geography game made with Javascript and with a backend database to store player scores.",
-        "carousel-description3": "Sapore Di Mare - Fictional Restaurant's Website made with Django, that features a booking system and admin panel for management.",
-        "carousel-description4": "Login page for a social network website, made using React and DjangoRest frameworks.",
-        "carousel-description5": "Sapore Di Mare's booking system.",
-        "carousel-description6": "Sneakers Vault payment mock system powered by Stripe Sandbox.",
-        "contact-me": "<a href='contact.html'>Let's work together!</a>"
+    "hero": {
+      "title": "Selected Work",
+      "lead": "A collection of projects that blend functionality, design, and storytelling. Each one represents a different challenge — from full-stack applications to creative, experience-driven websites."
     },
-    "about": {
-        "title": "About Me",
-        "about-p": "I had my first working experiences in logistics and retail, until i moved to London in 2015 and I started working in the hospitality industry. I spent nearly ten years in the UK, growing both professionaly and personally while working in high-end restaurants and private member clubs.",
-        "about-p2": "Over the time though i felt the need for a change, something that would allow me to create, learn continuously, and work remotely. <br> That's when I decided to reinvent myself and to start my journey into tech. In 2024, I enrolled for the <a href='https://codeinstitute.net/global/' target='_blank'>Code Institute</a>'s Full Stack Developer Course, and started studying web development, gradually transitioning into a more creative and fulfilling career path, eventually leaving my job in hospitality, and achieved my diploma. <br> ",
-        "about-p3": "This journey taught me resilience, discipline, and the importance of building things and pursue goals that are both functional and meaningful. <br>",
-        "timeline-month1": "May 2024",
-        "timeline-title1": "Started my Journey",
-        "timeline-p1": "Enrolled for the Code Institute Full stack Developer Course",
-        "timeline-month2": "June 2024",
-        "timeline-title2": "HTML & CSS",
-        "timeline-p2": "Started learning HTML and CSS and built my first project.",
-        "timeline-month3": "August 2024",
-        "timeline-title3": "JavaScript & DOM",
-        "timeline-p3": "Started learning and working with JavaScript and Python, also building <a href='https://alelodato.github.io/Pictures-and-Places' target='_blank'>Pictures and Places</a> as my second portfolio project.",
-        "timeline-month4": "November 2024",
-        "timeline-title4": "Django and PostgreSQL",
-        "timeline-p4": "Started working with Django and PostgreSQL databases and built <a href='https://sapore-di-mare-0503ed908911.herokuapp.com' target='_blank'>Sapore Di Mare</a>, my first full stack project.",
-        "timeline-month5": "March 2025",
-        "timeline-title5": "React",
-        "timeline-p5": "First started working with React and built <a href='https://vibook-557c0bb75197.herokuapp.com' target='_blank'>Vibook</a>, my last project to complete the course using this framework.",
-        "timeline-month6": "July 2025",
-        "timeline-title6": "Achieved Course Graduation",
-        "timeline-p6": "Completed the Code Institute Full Stack developer course.",
-        "timeline-month7": "Today",
-        "timeline-title7": "Building and Networking",
-        "timeline-p7": "Keeping on building and improving my portfolio, adding <a href='https://sneakers-vault-jet.vercel.app' target='_blank'>Sneakers Vault</a> to it. In the meantime I'm strengthening my knowledge of programming languages and frameworks, and also starting to develop for small businesses and professionals, while looking for new collaborations and work opportunities.",
-        "collab2": "Feel free to <a href='contact.html'>get in touch here</a> or on <a href='https://www.linkedin.com/in/alessio-lodato-0541411b8'>Linkedin</a>. You can also check out more of my work on <a href='https://github.com/alelodato' target='_blank'>GitHub</a>."
+    "projects": {
+      "heading": "Projects",
+      "sv": {
+        "tagline": "Full-stack e-commerce with secure payments and multilingual UX",
+        "desc": "A modern, fully responsive e-commerce built with React (Vite) and a lightweight Node/Express backend. It ships advanced product filters, wishlist, search, and a complete Stripe Checkout flow. Internationalization with react-i18next. Deployed on Vercel (frontend) and Railway (backend).",
+        "hl1": "React + Vite • Node/Express • PostgreSQL",
+        "hl2": "Stripe Checkout (success/cancel flow, webhooks ready)",
+        "hl3": "Search, filters, wishlist, responsive UI",
+        "img1Alt": "Sneakers Vault — product grid and filters",
+        "img2Alt": "Sneakers Vault — Stripe Checkout flow",
+        "img3Alt": "Sneakers Vault — wishlist and multilingual UI"
+      },
+      "sdm": {
+        "tagline": "Restaurant booking with real-time table availability",
+        "desc": "Django-based booking platform with overlap prevention and a custom admin table map with color indicators for availability. Staff can edit table capacity. Automated tests validate booking creation and core availability logic.",
+        "hl1": "Django • Custom Admin UX",
+        "hl2": "Real-time table map (availability indicators)",
+        "hl3": "Overlap prevention • Capacity management",
+        "img1Alt": "Sapore di Mare — admin table map with status colors",
+        "img2Alt": "Sapore di Mare — booking form and availability"
+      }
     },
-    "contact": {
-        "title": "Got a project in mind?",
-        "title2": "Let's work together!",
-        "button": "Send"
+    "highlights": {
+      "title": "Other Work",
+      "ff": {
+        "desc": "Showcase site for a videomaking studio: futuristic UI, hero video, animated sections, responsive image grids and an EmailJS contact flow (in progress).",
+        "img1Alt": "Future Frames — hero section with video background",
+        "img2Alt": "Future Frames — animated grid and hover effects"
+      }
     },
-    "portfolio": {
-        "seo": {
-            "title": "Selected Work — Portfolio",
-            "description": "A curated selection of projects blending functionality, design, and storytelling."
-        },
-        "hero": {
-            "title": "Selected Work",
-            "lead": "A collection of projects that blend functionality, design, and storytelling. Each one represents a different challenge — from full-stack applications to creative, experience-driven websites."
-        },
-        "projects": {
-            "heading": "Projects",
-            "sv": {
-                "tagline": "Full-stack e-commerce with secure payments and multilingual UX",
-                "desc": "A modern, fully responsive e-commerce built with React (Vite) and a lightweight Node/Express backend. It ships advanced product filters, wishlist, search, and a complete Stripe Checkout flow. Internationalization with react-i18next. Deployed on Vercel (frontend) and Railway (backend).",
-                "hl1": "React + Vite • Node/Express • PostgreSQL",
-                "hl2": "Stripe Checkout (success/cancel flow, webhooks ready)",
-                "hl3": "Search, filters, wishlist, responsive UI",
-                "img1Alt": "Sneakers Vault — product grid and filters",
-                "img2Alt": "Sneakers Vault — Stripe Checkout flow",
-                "img3Alt": "Sneakers Vault — wishlist and multilingual UI"
-            },
-            "sdm": {
-                "tagline": "Restaurant booking with real-time table availability",
-                "desc": "Django-based booking platform with overlap prevention and a custom admin table map with color indicators for availability. Staff can edit table capacity. Automated tests validate booking creation and core availability logic.",
-                "hl1": "Django • Custom Admin UX",
-                "hl2": "Real-time table map (availability indicators)",
-                "hl3": "Overlap prevention • Capacity management",
-                "img1Alt": "Sapore di Mare — admin table map with status colors",
-                "img2Alt": "Sapore di Mare — booking form and availability"
-            }
-        },
-        "highlights": {
-            "title": "Other Work",
-            "ff": {
-                "desc": "Showcase site for a videomaking studio: futuristic UI, hero video, animated sections, responsive image grids and an EmailJS contact flow (in progress).",
-                "img1Alt": "Future Frames — hero section with video background",
-                "img2Alt": "Future Frames — animated grid and hover effects"
-            }
-        },
-        "cta": {
-            "title": "Ready to start?",
-            "lead": "Let’s build something modern, fast, and memorable.",
-            "contact": "Contact Me",
-            "cv": "Download CV"
-        },
-        "common": {
-            "live": "Live Site",
-            "github": "GitHub",
-            "contact": "Get in touch"
-        }
+    "cta": {
+      "title": "Ready to start?",
+      "lead": "Let’s build something modern, fast, and memorable.",
+      "contact": "Contact Me",
+      "cv": "Download CV"
     },
+    "common": {
+      "live": "Live Site",
+      "github": "GitHub",
+      "contact": "Get in touch"
+    }
+  },
   "services": {
     "seo": {
       "title": "Services — Web Experiences that Work",
