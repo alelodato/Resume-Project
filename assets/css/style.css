@@ -206,6 +206,7 @@ header {
 }
 
 .homepage {
+  font-family: "Exo", sans-serif;
   color: #fff;
 }
 
@@ -248,7 +249,6 @@ header {
 }
 
 .homepage p {
-  font-family: "Roboto", sans-serif;
   font-weight: 400;
   font-size: 1rem;
 }
@@ -452,6 +452,7 @@ div#map {
 /*About Me Page */
 
 #about {
+  font-family: "Exo", sans-serif;
   padding: 30px;
   color: #fff;
 }
