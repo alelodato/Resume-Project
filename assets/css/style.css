@@ -334,10 +334,6 @@ header {
   padding: 10px;
 }
 
-.home-intro2 {
-  padding: 1px;
-}
-
 .home-intro h2 {
   font-family: "Exo", sans-serif;
   letter-spacing: 5px;
@@ -351,7 +347,8 @@ header {
 
 .home-intro2 h2 {
   font-size: 3rem;
-  padding: 10px;
+  padding-left: 20px;
+  margin: 0;
 }
 
 .home-intro2 p {
