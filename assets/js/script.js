@@ -1,25 +1,3 @@
-document.addEventListener("DOMContentLoaded", () => {
-    const cvButton = document.getElementById("download-cv");
-
-    // Lingua del browser
-    const userLang = navigator.language || navigator.userLanguage;
-
-    // Scegli file CV in base alla lingua
-    const cvFile = userLang.startsWith("it")
-      ? "assets/cv/CV-Alessio-Lodato-IT.pdf"
-      : "assets/cv/CV-Alessio-Lodato-EN.pdf";
-
-      cvButton.addEventListener("click", (e) => {
-        e.preventDefault();
-        window.open(cvFile, "_blank");
-      });
-
-    // Aggiorna il link del pulsante
-    cvButton.setAttribute("href", cvFile);
-  });
-
-
-
 
 // Loads a language rendering the text in the active one
 function loadLanguage(lang) {
