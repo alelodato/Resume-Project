@@ -137,27 +137,27 @@
         "item3": "Form contatti semplice e tracciabile"
       },
       "dynamic": {
-        "title": "Sito Dinamico",
-        "desc": "Sito con contenuti gestibili in autonomia (immagini e testi). Include un pannello intuitivo e funzionalità base di gestione.",
-        "item1": "Contenuti aggiornabili dal cliente",
+        "title": "Sito Vetrina",
+        "desc": "Sito Web di 3-5 pagine ideali per piccole attivitá commerciali o liberi professionisti. Facile da navigare, con design professionale e sezioni personalizzate.",
+        "item1": "Navigazione intuitiva e design professionale",
         "item2": "Architettura scalabile e SEO di base",
-        "item3": "Accessi, ruoli e permessi semplici",
-        "note_external": "Per funzionalità specifiche (gestionali, sistemi di prenotazione o pagamento) utilizzo servizi esterni: scelta e costi concordati in fase di progettazione."
+        "item3": "Form contatti dinamici e personalizzabili"
       },
       "custom": {
-        "title": "Soluzioni Personalizzate",
-        "desc": "Quando serve qualcosa di unico: web app, micro-SaaS, aree riservate o esperienze interattive.",
-        "item1": "Analisi requisiti e prototipo",
+        "title": "Sito Dinamico Personalizzato",
+        "desc": "Quando serve qualcosa di unico: e-commerce, siti con sistemi di prenotazioni, pannelli di amministrazione o integrazioni API. Soluzioni su misura per esigenze specifiche.",
+        "item1": "Contenuti modificabili tramite CMS o pannello admin",
         "item2": "Sviluppo modulare e documentato",
-        "item3": "Deploy e handoff con guida d’uso"
+        "item3": "Uso di piattaforme moderne per integrazione funzionalitá avanzate (Stripe, Calendly)",
+        "note_external": "Per funzionalità specifiche (gestionali, sistemi di prenotazione o pagamento) utilizzo servizi esterni: scelta e costi concordati in fase di progettazione."
       }
     },
     "extras": {
       "title": "Integrazioni e servizi extra (opzionali)",
       "lead": "Puoi aggiungerli in qualunque momento, anche dopo la messa online:",
-      "booking": "Sistemi di prenotazione esterni (Trafft, Setmore, Calendly) — integrazione widget per corsi, appuntamenti o servizi",
+      "booking": "Sistemi di prenotazione esterni per corsi, appuntamenti o servizi",
       "payments": "Pagamenti online (Stripe Payment Links) — pulsanti “Paga ora” con pagine di pagamento sicure gestite da Stripe",
-      "forms": "Modulo contatti avanzato — invio automatico email tramite servizio esterno (Formspree / Netlify Forms)",
+      "forms": "Modulo contatti avanzato — invio automatico email tramite servizio esterno",
       "seo_analytics": "SEO avanzata e Google Analytics — ottimizzazione per motori di ricerca e tracciamento statistiche",
       "i18n": "Traduzione multilingua — implementazione fino a 3 lingue",
       "note_costs": "Eventuali costi dei servizi esterni sono a carico del cliente e verranno discussi prima dell’integrazione."

@@ -137,28 +137,26 @@
         "item3": "Simple, trackable contact form"
       },
       "dynamic": {
-        "title": "Dynamic Site",
-        "desc": "A site where you can manage content autonomously (images and text). Includes a simple admin and basic content management features.",
-        "item1": "Client-editable content",
-        "item2": "Scalable architecture with basic SEO",
-        "item3": "Simple roles and access",
-        "note_external": "For specific features (management systems, bookings, payments) I integrate third-party services. Choices and costs are agreed during the planning phase."
+        "title": "Showcase Website",
+        "desc": "A 3–5 page website ideal for small businesses or independent professionals. Easy to navigate, with a professional design and custom sections.",
+        "item1": "Intuitive navigation and professional design",
+        "item2": "Scalable architecture and basic SEO",
+        "item3": "Dynamic and customizable contact forms"
       },
       "custom": {
-        "title": "Custom Solutions",
-        "desc": "When you need something unique: web apps, micro-SaaS, gated areas or interactive experiences.",
-        "item1": "Requirements analysis and prototyping",
-        "item2": "Modular, well-documented development",
-        "item3": "Deployment and handoff with usage guide"
+        "title": "Custom Dynamic Website",
+        "desc": "For unique projects: e-commerce, booking systems, admin panels, or API integrations. Tailor-made solutions designed for specific business needs.",
+        "item1": "Editable content through a CMS or admin panel",
+        "item2": "Modular and well-documented development",
+        "item3": "Use of modern platforms to integrate advanced features (Stripe, Calendly)",
+        "note_external": "For specific functionalities (management tools, booking or payment systems), I rely on external services — chosen and agreed upon during the design phase."
       }
     },
     "extras": {
       "title": "Integrations & extras (optional)",
       "lead": "You can add them anytime, even after launch:",
-      "booking": "External booking systems (Trafft, Setmore, Calendly) — widget integration for classes, appointments or services",
+      "booking": "External booking systems integration for classes, appointments or services",
       "payments": "Online payments (Stripe Payment Links) — “Pay now” buttons with secure Stripe-hosted pages",
-      "forms": "Advanced contact form — automatic email delivery via external service (Formspree / Netlify Forms)",
-      "seo_analytics": "Advanced SEO and Google Analytics — search optimization and traffic tracking",
       "i18n": "Multilingual setup — up to 3 languages",
       "note_costs": "Any third-party fees are paid by the client and will be discussed before integration."
     },
